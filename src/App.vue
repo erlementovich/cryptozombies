@@ -1,54 +1,36 @@
 <template>
   <div v-if="isDrizzleInitialized" id="app">
-    <h1>Sign the Guestbook</h1>
-    <!--Component from the Drizzle plugin to allow filling of smart contract fields-->
-    <drizzle-contract-form
-      :contractName="contractName"
-      method="signBook"
-      :placeholders="['Name']"
-    />
-    <h2>Guests:</h2>
-    <!--Get list of names and transform bytes into Utf8-->
-    <ul v-if="getNames">
-      <li v-for="(name, i) in getNames" :key="i">{{ utils.toUtf8(name) }}</li>
-    </ul>
+
+    <div class="section">
+      <Account />
+    </div>
+
+    <div class="section">
+      <h2>Zombie Storage</h2>
+      <ZombieStorage />
+      <drizzle-contract-form
+        contractName="ZombieFactories"
+        method="signBook"
+        :placeholders="['Value']"
+      />
+    </div>
+
   </div>
-  <div v-else>
-    Loading application...
-  </div>
+
+  <div v-else>Loading application...</div>
 </template>
 
 <script>
 import { mapGetters } from "vuex";
+import Account from './components/Account';
+import ZombieStorage from './components/zombies/ZombieStorage';
 
 export default {
-  name: "app",
-  data: () => ({
-    contractName: 'ZombieFactories'
-  }),
+  name: 'App',
+  components: { ZombieStorage, Account },
   computed: {
-    ...mapGetters("drizzle", ["drizzleInstance", "isDrizzleInitialized"]),
-    ...mapGetters("contracts", ["getContractData"]),
-    getNames() {
-      let data = this.getContractData({
-        contract: this.contractName,
-        method: "getNames"
-      });
-      if (data === "loading") return false;
-      return data;
-    },
-    utils() {
-      return this.drizzleInstance.web3.utils;
-    }
+    ...mapGetters("drizzle", ["isDrizzleInitialized"]),
   },
-  // Register smart contract before the component mounts to ensure data is available
-  created() {
-    this.$store.dispatch("drizzle/REGISTER_CONTRACT", {
-      contractName: this.contractName,
-      method: "getNames",
-      methodArgs: []
-    });
-  }
 };
 </script>
 

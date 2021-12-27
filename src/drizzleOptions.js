@@ -14,7 +14,6 @@ const options = {
     ZombieFactories: ["OwnershipTransferred", "Transfer", "NewZombie", "Approval"]
   },
   polls: {
-    // check accounts ever 15 seconds
     accounts: 15000
   }
 };
