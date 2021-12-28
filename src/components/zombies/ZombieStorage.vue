@@ -1,7 +1,12 @@
 <template>
-  <p>
-    <strong>Zombies: </strong>{{ contractData }}
-  </p>
+  <div>
+    <strong>Zombies: </strong>
+    <ul v-if="contractData.length">
+      <li v-for="zombie in contractData" :key="zombie.id">
+        {{ zombie }}
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>
@@ -9,23 +14,25 @@ import { mapGetters } from 'vuex';
 
 const args = {
   contractName: 'ZombieFactories',
-  method: 'getOwnerZombieIds',
-  methodArgs: '',
+  method: 'getZombiesByOwner',
+  methodArgs: [],
 };
 
 export default {
   name: "ZombieStorage",
   computed: {
     ...mapGetters('contracts', ['getContractData']),
+    ...mapGetters('accounts', ['activeAccount']),
     contractData() {
       return this.getContractData({
         contract: args.contractName,
-        method: args.method
+        method: args.method,
       })
     }
   },
-  created() {
-    this.$store.dispatch('drizzle/REGISTER_CONTRACT', args)
+  async created() {
+    args.methodArgs = [this.activeAccount];
+    await this.$store.dispatch('drizzle/REGISTER_CONTRACT', args)
   }
 }
 </script>

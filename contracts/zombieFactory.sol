@@ -47,17 +47,4 @@ contract ZombieFactory is Ownable {
         randDna = randDna - randDna % 100;
         _createZombie(_name, randDna);
     }
-
-    function getOwnerZombieIds() external onlyOwner view returns (uint[]) {
-        uint[] memory result = new uint[](ownerZombieCount[msg.sender]);
-        uint counter = 0;
-        for (uint i = 0; i < zombies.length; i++) {
-            if (zombieToOwner[i] == msg.sender) {
-                result[counter] = i;
-                counter++;
-            }
-        }
-        return result;
-    }
-
 }

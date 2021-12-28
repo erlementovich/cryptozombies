@@ -8,11 +8,7 @@
     <div class="section">
       <h2>Zombie Storage</h2>
       <ZombieStorage />
-      <drizzle-contract-form
-        contractName="ZombieFactories"
-        method="signBook"
-        :placeholders="['Value']"
-      />
+      <ZombieCreate />
     </div>
 
   </div>
@@ -24,10 +20,11 @@
 import { mapGetters } from "vuex";
 import Account from './components/Account';
 import ZombieStorage from './components/zombies/ZombieStorage';
+import ZombieCreate from './components/zombies/ZombieCreate';
 
 export default {
   name: 'App',
-  components: { ZombieStorage, Account },
+  components: { ZombieCreate, ZombieStorage, Account },
   computed: {
     ...mapGetters("drizzle", ["isDrizzleInitialized"]),
   },
