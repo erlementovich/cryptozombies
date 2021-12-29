@@ -1,16 +1,27 @@
 <template>
   <div>
-    <strong>Zombies: </strong>
-    <ul v-if="contractData.length">
-      <li v-for="zombie in contractData" :key="zombie.id">
-        {{ zombie }}
-      </li>
-    </ul>
+    <b-alert show>Default Alert</b-alert>
+    <h2>Zombies: </h2>
+    <template v-if="contractData.length">
+      <b-card-group deck>
+        <ZombieCard v-for="zombie in contractData" :key="zombie.id" :zombie="zombie" />
+      </b-card-group>
+    </template>
+    <b-card v-else
+            bg-variant="light"
+            text-variant="black"
+            title="Зомби не найдено">
+      <b-card-text>
+        Аккаунт <strong>{{ activeAccount }}</strong> еще не создал ни одного зомби
+      </b-card-text>
+      <b-button href="#" variant="dark">Создать зомби</b-button>
+    </b-card>
   </div>
 </template>
 
 <script>
 import { mapGetters } from 'vuex';
+import ZombieCard from './ZombieCard';
 
 const args = {
   contractName: 'ZombieFactories',
@@ -20,6 +31,7 @@ const args = {
 
 export default {
   name: "ZombieStorage",
+  components: { ZombieCard },
   computed: {
     ...mapGetters('contracts', ['getContractData']),
     ...mapGetters('accounts', ['activeAccount']),
