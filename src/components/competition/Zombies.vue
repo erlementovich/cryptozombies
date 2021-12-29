@@ -1,39 +1,44 @@
 <template>
   <div>
-    <h2>Коллекция зомби: </h2>
-    <template v-if="contractData.length && typeof contractData !== 'string'">
+    <h2>Зомби других аккаунтов: </h2>
+    <template v-if="zombies && zombies.length && typeof zombies !== 'string'">
       <div class="zombie-cards">
-        <ZombieCard v-for="zombieId in contractData" :key="zombieId" :id="zombieId" />
+        <ZombieCard
+          v-for="zombieId
+           in zombies"
+          :isAttackCard="true"
+          :key="zombieId"
+          :id="zombieId" />
       </div>
     </template>
-    <b-card v-else
-            bg-variant="light"
-            text-variant="black"
-            title="Зомби не найдено">
+    <b-card
+      v-else
+      bg-variant="light"
+      text-variant="black"
+      title="У других аккаунтов зомби не найдено">
       <b-card-text>
-        Аккаунт <strong>{{ activeAccount }}</strong> еще не создал ни одного зомби
+        Ни один аккаунт еще не создал зомби для битвы
       </b-card-text>
     </b-card>
   </div>
 </template>
 
 <script>
+import ZombieCard from '../zombies/ZombieCard';
 import { mapGetters } from 'vuex';
-import ZombieCard from './ZombieCard';
 
 const args = {
   contractName: 'ZombieFactories',
-  method: 'getZombiesByOwner',
-  methodArgs: [],
+  method: 'getAnotherZombies',
+  methodArgs: '',
 };
 
 export default {
-  name: "ZombieStorage",
+  name: "Zombies",
   components: { ZombieCard },
   computed: {
     ...mapGetters('contracts', ['getContractData']),
-    ...mapGetters('accounts', ['activeAccount']),
-    contractData() {
+    zombies() {
       return this.getContractData({
         contract: args.contractName,
         method: args.method,
@@ -41,11 +46,11 @@ export default {
     }
   },
   async created() {
-    args.methodArgs = [this.activeAccount];
     await this.$store.dispatch('drizzle/REGISTER_CONTRACT', args)
   }
 }
 </script>
+
 <style scoped>
 .zombie-cards {
   display: grid;

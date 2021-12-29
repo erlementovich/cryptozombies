@@ -24,13 +24,7 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex';
-
-const args = {
-  contractName: 'ZombieFactories',
-  method: 'createRandomZombie',
-  methodArgs: '',
-};
+import { mapActions } from 'vuex';
 
 export default {
   name: "ZombieCreate",
@@ -38,26 +32,16 @@ export default {
     name: '',
     show: true
   }),
-  computed: {
-    ...mapGetters('drizzle', ['drizzleInstance']),
-  },
   async created() {
     await this.fetchZombieCount();
   },
   methods: {
-    ...mapActions('zombie', ['fetchZombieCount']),
+    ...mapActions('zombie', ['fetchZombieCount', 'createZombie']),
     onSubmit() {
       if (this.name && this.name !== '')
-        this.drizzleInstance
-          .contracts[args.contractName]
-          .methods[args.method]
-          .cacheSend(this.name)
-
-      this.fetchZombieCount();
+        this.createZombie(this.name)
     },
-    onReset(event) {
-      event.preventDefault()
-
+    onReset() {
       this.name = '';
       this.show = false
       this.$nextTick(() => {
