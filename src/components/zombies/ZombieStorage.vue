@@ -1,10 +1,9 @@
 <template>
   <div>
-    <b-alert show>Default Alert</b-alert>
-    <h2>Zombies: </h2>
-    <template v-if="contractData.length">
+    <h2>Коллекция зомби: </h2>
+    <template v-if="contractData.length && typeof contractData !== 'string'">
       <b-card-group deck>
-        <ZombieCard v-for="zombie in contractData" :key="zombie.id" :zombie="zombie" />
+        <ZombieCard v-for="zombieId in contractData" :key="zombieId" :id="zombieId" />
       </b-card-group>
     </template>
     <b-card v-else
@@ -14,7 +13,6 @@
       <b-card-text>
         Аккаунт <strong>{{ activeAccount }}</strong> еще не создал ни одного зомби
       </b-card-text>
-      <b-button href="#" variant="dark">Создать зомби</b-button>
     </b-card>
   </div>
 </template>

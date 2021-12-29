@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <h2>Account</h2>
-    <div>{{ activeAccount }}</div>
-    <div>Balance: {{ activeBalance }} Wei</div>
-  </div>
+  <b-card>
+    <h2>Аккаунт</h2>
+    <div>Адрес: <strong>{{ activeAccount }}</strong></div>
+    <div>Баланс: <strong>{{ activeBalance }}</strong> Wei</div>
+  </b-card>
 </template>
 
 <script>

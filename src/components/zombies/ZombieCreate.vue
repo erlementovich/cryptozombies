@@ -1,15 +1,30 @@
 <template>
-  <div class="form-input">
-    <input
-      v-model="name"
-      placeholder="Введите имя зомби"
-      type="text">
-    <button class="btn" @click.prevent="onSubmit">Создать зомби</button>
-  </div>
+  <b-card>
+    <b-form @submit.prevent="onSubmit" @reset.prevent="onReset" v-if="show">
+      <b-form-group
+        class="mb-2"
+        id="input-group-1"
+        label="Имя зомби:"
+        label-for="input-1"
+        description="Напишите имя своего будущего зомби"
+      >
+        <b-form-input
+          id="input-1"
+          v-model="name"
+          type="text"
+          placeholder="Введите имя"
+          required
+        ></b-form-input>
+      </b-form-group>
+
+      <b-button type="submit" variant="primary">Создать</b-button>
+      <b-button class="mx-2" type="reset" variant="danger">Очистить</b-button>
+    </b-form>
+  </b-card>
 </template>
 
 <script>
-import { mapGetters } from 'vuex';
+import { mapGetters, mapActions } from 'vuex';
 
 const args = {
   contractName: 'ZombieFactories',
@@ -21,36 +36,34 @@ export default {
   name: "ZombieCreate",
   data: () => ({
     name: '',
+    show: true
   }),
   computed: {
     ...mapGetters('drizzle', ['drizzleInstance']),
   },
-
+  async created() {
+    await this.fetchZombieCount();
+  },
   methods: {
+    ...mapActions('zombie', ['fetchZombieCount']),
     onSubmit() {
       if (this.name && this.name !== '')
         this.drizzleInstance
           .contracts[args.contractName]
           .methods[args.method]
           .cacheSend(this.name)
+
+      this.fetchZombieCount();
+    },
+    onReset(event) {
+      event.preventDefault()
+
+      this.name = '';
+      this.show = false
+      this.$nextTick(() => {
+        this.show = true
+      })
     }
-  }
+  },
 }
 </script>
-
-<style scoped>
-.form-input input {
-  border-bottom: 1px solid #2c3e50;
-  box-shadow: unset;
-  outline: none;
-}
-
-.form-input .btn {
-  background-color: #2c3e50;
-  color: white;
-  border: unset;
-  padding: 4px 10px;
-  margin-left: 10px;
-  cursor: pointer;
-}
-</style>
