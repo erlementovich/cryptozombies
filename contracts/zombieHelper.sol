@@ -45,4 +45,16 @@ contract ZombieHelper is ZombieFeeding {
         return result;
     }
 
+    function getAnotherZombies() external view returns (uint[]) {
+        uint[] memory result = new uint[](zombies.length - ownerZombieCount[msg.sender]);
+        uint counter = 0;
+        for (uint i = 0; i < zombies.length; i++) {
+            if (zombieToOwner[i] != msg.sender) {
+                result[counter] = i;
+                counter++;
+            }
+        }
+        return result;
+    }
+
 }

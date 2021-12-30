@@ -68,17 +68,17 @@
     "absolutePath": "project:/contracts/zombieFeeding.sol",
     "exportedSymbols": {
       "KittyInterface": [
-        724
+        725
       ],
       "ZombieFeeding": [
-        882
+        883
       ]
     },
-    "id": 883,
+    "id": 884,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 697,
+        "id": 698,
         "literals": [
           "solidity",
           ">=",
@@ -91,10 +91,10 @@
       {
         "absolutePath": "project:/contracts/zombieFactory.sol",
         "file": "./zombieFactory.sol",
-        "id": 698,
+        "id": 699,
         "nodeType": "ImportDirective",
-        "scope": 883,
-        "sourceUnit": 696,
+        "scope": 884,
+        "sourceUnit": 697,
         "src": "59:29:7",
         "symbolAliases": [],
         "unitAlias": ""
@@ -105,9 +105,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": false,
-        "id": 724,
+        "id": 725,
         "linearizedBaseContracts": [
-          724
+          725
         ],
         "name": "KittyInterface",
         "nodeType": "ContractDefinition",
@@ -115,7 +115,7 @@
           {
             "body": null,
             "documentation": null,
-            "id": 723,
+            "id": 724,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -123,15 +123,15 @@
             "name": "getKitty",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 701,
+              "id": 702,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 700,
+                  "id": 701,
                   "name": "_id",
                   "nodeType": "VariableDeclaration",
-                  "scope": 723,
+                  "scope": 724,
                   "src": "138:11:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -140,7 +140,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 699,
+                    "id": 700,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "138:7:7",
@@ -157,15 +157,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 722,
+              "id": 723,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 703,
+                  "id": 704,
                   "name": "isGestating",
                   "nodeType": "VariableDeclaration",
-                  "scope": 723,
+                  "scope": 724,
                   "src": "183:16:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -174,7 +174,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 702,
+                    "id": 703,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "183:4:7",
@@ -188,10 +188,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 705,
+                  "id": 706,
                   "name": "isReady",
                   "nodeType": "VariableDeclaration",
-                  "scope": 723,
+                  "scope": 724,
                   "src": "209:12:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -200,7 +200,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 704,
+                    "id": 705,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "209:4:7",
@@ -214,10 +214,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 707,
+                  "id": 708,
                   "name": "cooldownIndex",
                   "nodeType": "VariableDeclaration",
-                  "scope": 723,
+                  "scope": 724,
                   "src": "231:21:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -226,7 +226,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 706,
+                    "id": 707,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "231:7:7",
@@ -240,10 +240,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 709,
+                  "id": 710,
                   "name": "nextActionAt",
                   "nodeType": "VariableDeclaration",
-                  "scope": 723,
+                  "scope": 724,
                   "src": "262:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -252,7 +252,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 708,
+                    "id": 709,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "262:7:7",
@@ -266,10 +266,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 711,
+                  "id": 712,
                   "name": "siringWithId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 723,
+                  "scope": 724,
                   "src": "292:20:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -278,7 +278,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 710,
+                    "id": 711,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "292:7:7",
@@ -292,10 +292,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 713,
+                  "id": 714,
                   "name": "birthTime",
                   "nodeType": "VariableDeclaration",
-                  "scope": 723,
+                  "scope": 724,
                   "src": "322:17:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -304,7 +304,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 712,
+                    "id": 713,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "322:7:7",
@@ -318,10 +318,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 715,
+                  "id": 716,
                   "name": "matronId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 723,
+                  "scope": 724,
                   "src": "349:16:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -330,7 +330,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 714,
+                    "id": 715,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "349:7:7",
@@ -344,10 +344,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 717,
+                  "id": 718,
                   "name": "sireId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 723,
+                  "scope": 724,
                   "src": "375:14:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -356,7 +356,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 716,
+                    "id": 717,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "375:7:7",
@@ -370,10 +370,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 719,
+                  "id": 720,
                   "name": "generation",
                   "nodeType": "VariableDeclaration",
-                  "scope": 723,
+                  "scope": 724,
                   "src": "399:18:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -382,7 +382,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 718,
+                    "id": 719,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "399:7:7",
@@ -396,10 +396,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 721,
+                  "id": 722,
                   "name": "genes",
                   "nodeType": "VariableDeclaration",
-                  "scope": 723,
+                  "scope": 724,
                   "src": "427:13:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -408,7 +408,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 720,
+                    "id": 721,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
                     "src": "427:7:7",
@@ -423,14 +423,14 @@
               ],
               "src": "173:273:7"
             },
-            "scope": 724,
+            "scope": 725,
             "src": "120:327:7",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "external"
           }
         ],
-        "scope": 883,
+        "scope": 884,
         "src": "90:359:7"
       },
       {
@@ -439,32 +439,32 @@
             "arguments": null,
             "baseName": {
               "contractScope": null,
-              "id": 725,
+              "id": 726,
               "name": "ZombieFactory",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 695,
+              "referencedDeclaration": 696,
               "src": "477:13:7",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_ZombieFactory_$695",
+                "typeIdentifier": "t_contract$_ZombieFactory_$696",
                 "typeString": "contract ZombieFactory"
               }
             },
-            "id": 726,
+            "id": 727,
             "nodeType": "InheritanceSpecifier",
             "src": "477:13:7"
           }
         ],
         "contractDependencies": [
           146,
-          695
+          696
         ],
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 882,
+        "id": 883,
         "linearizedBaseContracts": [
-          882,
-          695,
+          883,
+          696,
           146
         ],
         "name": "ZombieFeeding",
@@ -472,26 +472,26 @@
         "nodes": [
           {
             "constant": false,
-            "id": 728,
+            "id": 729,
             "name": "kittyContract",
             "nodeType": "VariableDeclaration",
-            "scope": 882,
+            "scope": 883,
             "src": "498:28:7",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_KittyInterface_$724",
+              "typeIdentifier": "t_contract$_KittyInterface_$725",
               "typeString": "contract KittyInterface"
             },
             "typeName": {
               "contractScope": null,
-              "id": 727,
+              "id": 728,
               "name": "KittyInterface",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 724,
+              "referencedDeclaration": 725,
               "src": "498:14:7",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_KittyInterface_$724",
+                "typeIdentifier": "t_contract$_KittyInterface_$725",
                 "typeString": "contract KittyInterface"
               }
             },
@@ -500,7 +500,7 @@
           },
           {
             "body": {
-              "id": 742,
+              "id": 743,
               "nodeType": "Block",
               "src": "570:75:7",
               "statements": [
@@ -514,7 +514,7 @@
                           "typeIdentifier": "t_address",
                           "typeString": "address"
                         },
-                        "id": 738,
+                        "id": 739,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -523,18 +523,18 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 733,
+                            "id": 734,
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1224,
+                            "referencedDeclaration": 1275,
                             "src": "588:3:7",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
                               "typeString": "msg"
                             }
                           },
-                          "id": 734,
+                          "id": 735,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -554,25 +554,25 @@
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 735,
+                            "id": 736,
                             "name": "zombieToOwner",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 589,
+                            "referencedDeclaration": 590,
                             "src": "602:13:7",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_uint256_$_t_address_$",
                               "typeString": "mapping(uint256 => address)"
                             }
                           },
-                          "id": 737,
+                          "id": 738,
                           "indexExpression": {
                             "argumentTypes": null,
-                            "id": 736,
+                            "id": 737,
                             "name": "_zombieId",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 730,
+                            "referencedDeclaration": 731,
                             "src": "616:9:7",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -604,21 +604,21 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 732,
+                      "id": 733,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1227,
-                        1228
+                        1278,
+                        1279
                       ],
-                      "referencedDeclaration": 1227,
+                      "referencedDeclaration": 1278,
                       "src": "580:7:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 739,
+                    "id": 740,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -632,31 +632,31 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 740,
+                  "id": 741,
                   "nodeType": "ExpressionStatement",
                   "src": "580:47:7"
                 },
                 {
-                  "id": 741,
+                  "id": 742,
                   "nodeType": "PlaceholderStatement",
                   "src": "637:1:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 743,
+            "id": 744,
             "name": "onlyOwnerOf",
             "nodeType": "ModifierDefinition",
             "parameters": {
-              "id": 731,
+              "id": 732,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 730,
+                  "id": 731,
                   "name": "_zombieId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 743,
+                  "scope": 744,
                   "src": "554:14:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -665,7 +665,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 729,
+                    "id": 730,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "554:4:7",
@@ -685,28 +685,28 @@
           },
           {
             "body": {
-              "id": 756,
+              "id": 757,
               "nodeType": "Block",
               "src": "721:57:7",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 754,
+                    "id": 755,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 750,
+                      "id": 751,
                       "name": "kittyContract",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 728,
+                      "referencedDeclaration": 729,
                       "src": "731:13:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_KittyInterface_$724",
+                        "typeIdentifier": "t_contract$_KittyInterface_$725",
                         "typeString": "contract KittyInterface"
                       }
                     },
@@ -717,11 +717,11 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 752,
+                          "id": 753,
                           "name": "_address",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 745,
+                          "referencedDeclaration": 746,
                           "src": "762:8:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
@@ -736,18 +736,18 @@
                             "typeString": "address"
                           }
                         ],
-                        "id": 751,
+                        "id": 752,
                         "name": "KittyInterface",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 724,
+                        "referencedDeclaration": 725,
                         "src": "747:14:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_KittyInterface_$724_$",
+                          "typeIdentifier": "t_type$_t_contract$_KittyInterface_$725_$",
                           "typeString": "type(contract KittyInterface)"
                         }
                       },
-                      "id": 753,
+                      "id": 754,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -757,34 +757,34 @@
                       "nodeType": "FunctionCall",
                       "src": "747:24:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_KittyInterface_$724",
+                        "typeIdentifier": "t_contract$_KittyInterface_$725",
                         "typeString": "contract KittyInterface"
                       }
                     },
                     "src": "731:40:7",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_KittyInterface_$724",
+                      "typeIdentifier": "t_contract$_KittyInterface_$725",
                       "typeString": "contract KittyInterface"
                     }
                   },
-                  "id": 755,
+                  "id": 756,
                   "nodeType": "ExpressionStatement",
                   "src": "731:40:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 757,
+            "id": 758,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
             "modifiers": [
               {
                 "arguments": null,
-                "id": 748,
+                "id": 749,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 747,
+                  "id": 748,
                   "name": "onlyOwner",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
@@ -802,15 +802,15 @@
             "name": "setKittyContractAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 746,
+              "id": 747,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 745,
+                  "id": 746,
                   "name": "_address",
                   "nodeType": "VariableDeclaration",
-                  "scope": 757,
+                  "scope": 758,
                   "src": "684:16:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -819,7 +819,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 744,
+                    "id": 745,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "684:7:7",
@@ -836,12 +836,12 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 749,
+              "id": 750,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "721:0:7"
             },
-            "scope": 882,
+            "scope": 883,
             "src": "651:127:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -849,14 +849,14 @@
           },
           {
             "body": {
-              "id": 772,
+              "id": 773,
               "nodeType": "Block",
               "src": "843:63:7",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 770,
+                    "id": 771,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -865,25 +865,25 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 762,
+                        "id": 763,
                         "name": "_zombie",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 759,
+                        "referencedDeclaration": 760,
                         "src": "853:7:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Zombie_$582_storage_ptr",
+                          "typeIdentifier": "t_struct$_Zombie_$583_storage_ptr",
                           "typeString": "struct ZombieFactory.Zombie storage pointer"
                         }
                       },
-                      "id": 764,
+                      "id": 765,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "readyTime",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 577,
+                      "referencedDeclaration": 578,
                       "src": "853:17:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint32",
@@ -901,18 +901,18 @@
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           },
-                          "id": 768,
+                          "id": 769,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftExpression": {
                             "argumentTypes": null,
-                            "id": 766,
+                            "id": 767,
                             "name": "now",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1226,
+                            "referencedDeclaration": 1277,
                             "src": "880:3:7",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -923,11 +923,11 @@
                           "operator": "+",
                           "rightExpression": {
                             "argumentTypes": null,
-                            "id": 767,
+                            "id": 768,
                             "name": "cooldownTime",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 569,
+                            "referencedDeclaration": 570,
                             "src": "886:12:7",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -948,7 +948,7 @@
                             "typeString": "uint256"
                           }
                         ],
-                        "id": 765,
+                        "id": 766,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -961,7 +961,7 @@
                         },
                         "typeName": "uint32"
                       },
-                      "id": 769,
+                      "id": 770,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -981,14 +981,14 @@
                       "typeString": "uint32"
                     }
                   },
-                  "id": 771,
+                  "id": 772,
                   "nodeType": "ExpressionStatement",
                   "src": "853:46:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 773,
+            "id": 774,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -996,31 +996,31 @@
             "name": "_triggerCooldown",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 760,
+              "id": 761,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 759,
+                  "id": 760,
                   "name": "_zombie",
                   "nodeType": "VariableDeclaration",
-                  "scope": 773,
+                  "scope": 774,
                   "src": "810:22:7",
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_Zombie_$582_storage_ptr",
+                    "typeIdentifier": "t_struct$_Zombie_$583_storage_ptr",
                     "typeString": "struct ZombieFactory.Zombie"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 758,
+                    "id": 759,
                     "name": "Zombie",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 582,
+                    "referencedDeclaration": 583,
                     "src": "810:6:7",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Zombie_$582_storage_ptr",
+                      "typeIdentifier": "t_struct$_Zombie_$583_storage_ptr",
                       "typeString": "struct ZombieFactory.Zombie"
                     }
                   },
@@ -1032,12 +1032,12 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 761,
+              "id": 762,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "843:0:7"
             },
-            "scope": 882,
+            "scope": 883,
             "src": "784:122:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -1045,7 +1045,7 @@
           },
           {
             "body": {
-              "id": 786,
+              "id": 787,
               "nodeType": "Block",
               "src": "983:50:7",
               "statements": [
@@ -1059,7 +1059,7 @@
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
                         },
-                        "id": 783,
+                        "id": 784,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1068,25 +1068,25 @@
                           "argumentTypes": null,
                           "expression": {
                             "argumentTypes": null,
-                            "id": 780,
+                            "id": 781,
                             "name": "_zombie",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 775,
+                            "referencedDeclaration": 776,
                             "src": "1001:7:7",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Zombie_$582_storage_ptr",
+                              "typeIdentifier": "t_struct$_Zombie_$583_storage_ptr",
                               "typeString": "struct ZombieFactory.Zombie storage pointer"
                             }
                           },
-                          "id": 781,
+                          "id": 782,
                           "isConstant": false,
                           "isLValue": true,
                           "isPure": false,
                           "lValueRequested": false,
                           "memberName": "readyTime",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 577,
+                          "referencedDeclaration": 578,
                           "src": "1001:17:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint32",
@@ -1097,11 +1097,11 @@
                         "operator": "<=",
                         "rightExpression": {
                           "argumentTypes": null,
-                          "id": 782,
+                          "id": 783,
                           "name": "now",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 1226,
+                          "referencedDeclaration": 1277,
                           "src": "1022:3:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -1115,7 +1115,7 @@
                         }
                       }
                     ],
-                    "id": 784,
+                    "id": 785,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
@@ -1128,15 +1128,15 @@
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 779,
-                  "id": 785,
+                  "functionReturnParameters": 780,
+                  "id": 786,
                   "nodeType": "Return",
                   "src": "993:33:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 787,
+            "id": 788,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1144,31 +1144,31 @@
             "name": "_isReady",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 776,
+              "id": 777,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 775,
+                  "id": 776,
                   "name": "_zombie",
                   "nodeType": "VariableDeclaration",
-                  "scope": 787,
+                  "scope": 788,
                   "src": "930:22:7",
                   "stateVariable": false,
                   "storageLocation": "storage",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_Zombie_$582_storage_ptr",
+                    "typeIdentifier": "t_struct$_Zombie_$583_storage_ptr",
                     "typeString": "struct ZombieFactory.Zombie"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 774,
+                    "id": 775,
                     "name": "Zombie",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 582,
+                    "referencedDeclaration": 583,
                     "src": "930:6:7",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Zombie_$582_storage_ptr",
+                      "typeIdentifier": "t_struct$_Zombie_$583_storage_ptr",
                       "typeString": "struct ZombieFactory.Zombie"
                     }
                   },
@@ -1180,15 +1180,15 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 779,
+              "id": 780,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 778,
+                  "id": 779,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 787,
+                  "scope": 788,
                   "src": "977:4:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -1197,7 +1197,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 777,
+                    "id": 778,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "977:4:7",
@@ -1212,7 +1212,7 @@
               ],
               "src": "976:6:7"
             },
-            "scope": 882,
+            "scope": 883,
             "src": "912:121:7",
             "stateMutability": "view",
             "superFunction": null,
@@ -1220,37 +1220,37 @@
           },
           {
             "body": {
-              "id": 855,
+              "id": 856,
               "nodeType": "Block",
               "src": "1146:392:7",
               "statements": [
                 {
                   "assignments": [
-                    800
+                    801
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 800,
+                      "id": 801,
                       "name": "myZombie",
                       "nodeType": "VariableDeclaration",
-                      "scope": 856,
+                      "scope": 857,
                       "src": "1156:23:7",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Zombie_$582_storage_ptr",
+                        "typeIdentifier": "t_struct$_Zombie_$583_storage_ptr",
                         "typeString": "struct ZombieFactory.Zombie"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 799,
+                        "id": 800,
                         "name": "Zombie",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 582,
+                        "referencedDeclaration": 583,
                         "src": "1156:6:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Zombie_$582_storage_ptr",
+                          "typeIdentifier": "t_struct$_Zombie_$583_storage_ptr",
                           "typeString": "struct ZombieFactory.Zombie"
                         }
                       },
@@ -1258,30 +1258,30 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 804,
+                  "id": 805,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 801,
+                      "id": 802,
                       "name": "zombies",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 585,
+                      "referencedDeclaration": 586,
                       "src": "1182:7:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_array$_t_struct$_Zombie_$582_storage_$dyn_storage",
+                        "typeIdentifier": "t_array$_t_struct$_Zombie_$583_storage_$dyn_storage",
                         "typeString": "struct ZombieFactory.Zombie storage ref[] storage ref"
                       }
                     },
-                    "id": 803,
+                    "id": 804,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 802,
+                      "id": 803,
                       "name": "_zombieId",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 789,
+                      "referencedDeclaration": 790,
                       "src": "1190:9:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -1295,7 +1295,7 @@
                     "nodeType": "IndexAccess",
                     "src": "1182:18:7",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Zombie_$582_storage",
+                      "typeIdentifier": "t_struct$_Zombie_$583_storage",
                       "typeString": "struct ZombieFactory.Zombie storage ref"
                     }
                   },
@@ -1311,14 +1311,14 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 807,
+                            "id": 808,
                             "name": "myZombie",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 800,
+                            "referencedDeclaration": 801,
                             "src": "1227:8:7",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Zombie_$582_storage_ptr",
+                              "typeIdentifier": "t_struct$_Zombie_$583_storage_ptr",
                               "typeString": "struct ZombieFactory.Zombie storage pointer"
                             }
                           }
@@ -1326,22 +1326,22 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_struct$_Zombie_$582_storage_ptr",
+                              "typeIdentifier": "t_struct$_Zombie_$583_storage_ptr",
                               "typeString": "struct ZombieFactory.Zombie storage pointer"
                             }
                           ],
-                          "id": 806,
+                          "id": 807,
                           "name": "_isReady",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 787,
+                          "referencedDeclaration": 788,
                           "src": "1218:8:7",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_function_internal_view$_t_struct$_Zombie_$582_storage_ptr_$returns$_t_bool_$",
+                            "typeIdentifier": "t_function_internal_view$_t_struct$_Zombie_$583_storage_ptr_$returns$_t_bool_$",
                             "typeString": "function (struct ZombieFactory.Zombie storage pointer) view returns (bool)"
                           }
                         },
-                        "id": 808,
+                        "id": 809,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1363,21 +1363,21 @@
                           "typeString": "bool"
                         }
                       ],
-                      "id": 805,
+                      "id": 806,
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1227,
-                        1228
+                        1278,
+                        1279
                       ],
-                      "referencedDeclaration": 1227,
+                      "referencedDeclaration": 1278,
                       "src": "1210:7:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
                         "typeString": "function (bool) pure"
                       }
                     },
-                    "id": 809,
+                    "id": 810,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1391,25 +1391,25 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 810,
+                  "id": 811,
                   "nodeType": "ExpressionStatement",
                   "src": "1210:27:7"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 815,
+                    "id": 816,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 811,
+                      "id": 812,
                       "name": "_targetDna",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 791,
+                      "referencedDeclaration": 792,
                       "src": "1247:10:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -1424,18 +1424,18 @@
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       },
-                      "id": 814,
+                      "id": 815,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
                       "leftExpression": {
                         "argumentTypes": null,
-                        "id": 812,
+                        "id": 813,
                         "name": "_targetDna",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 791,
+                        "referencedDeclaration": 792,
                         "src": "1260:10:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1446,11 +1446,11 @@
                       "operator": "%",
                       "rightExpression": {
                         "argumentTypes": null,
-                        "id": 813,
+                        "id": 814,
                         "name": "dnaModulus",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 566,
+                        "referencedDeclaration": 567,
                         "src": "1273:10:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1469,21 +1469,21 @@
                       "typeString": "uint256"
                     }
                   },
-                  "id": 816,
+                  "id": 817,
                   "nodeType": "ExpressionStatement",
                   "src": "1247:36:7"
                 },
                 {
                   "assignments": [
-                    818
+                    819
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 818,
+                      "id": 819,
                       "name": "newDna",
                       "nodeType": "VariableDeclaration",
-                      "scope": 856,
+                      "scope": 857,
                       "src": "1293:11:7",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -1492,7 +1492,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 817,
+                        "id": 818,
                         "name": "uint",
                         "nodeType": "ElementaryTypeName",
                         "src": "1293:4:7",
@@ -1505,14 +1505,14 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 826,
+                  "id": 827,
                   "initialValue": {
                     "argumentTypes": null,
                     "commonType": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     },
-                    "id": 825,
+                    "id": 826,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1526,7 +1526,7 @@
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           },
-                          "id": 822,
+                          "id": 823,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1535,25 +1535,25 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 819,
+                              "id": 820,
                               "name": "myZombie",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 800,
+                              "referencedDeclaration": 801,
                               "src": "1308:8:7",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Zombie_$582_storage_ptr",
+                                "typeIdentifier": "t_struct$_Zombie_$583_storage_ptr",
                                 "typeString": "struct ZombieFactory.Zombie storage pointer"
                               }
                             },
-                            "id": 820,
+                            "id": 821,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": false,
                             "memberName": "dna",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 573,
+                            "referencedDeclaration": 574,
                             "src": "1308:12:7",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -1564,11 +1564,11 @@
                           "operator": "+",
                           "rightExpression": {
                             "argumentTypes": null,
-                            "id": 821,
+                            "id": 822,
                             "name": "_targetDna",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 791,
+                            "referencedDeclaration": 792,
                             "src": "1323:10:7",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -1582,7 +1582,7 @@
                           }
                         }
                       ],
-                      "id": 823,
+                      "id": 824,
                       "isConstant": false,
                       "isInlineArray": false,
                       "isLValue": false,
@@ -1600,7 +1600,7 @@
                     "rightExpression": {
                       "argumentTypes": null,
                       "hexValue": "32",
-                      "id": 824,
+                      "id": 825,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -1631,7 +1631,7 @@
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     },
-                    "id": 833,
+                    "id": 834,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1641,11 +1641,11 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 828,
+                          "id": 829,
                           "name": "_species",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 793,
+                          "referencedDeclaration": 794,
                           "src": "1362:8:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_string_memory_ptr",
@@ -1660,18 +1660,18 @@
                             "typeString": "string memory"
                           }
                         ],
-                        "id": 827,
+                        "id": 828,
                         "name": "keccak256",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1218,
+                        "referencedDeclaration": 1269,
                         "src": "1352:9:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
                           "typeString": "function () pure returns (bytes32)"
                         }
                       },
-                      "id": 829,
+                      "id": 830,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1693,7 +1693,7 @@
                         {
                           "argumentTypes": null,
                           "hexValue": "6b69747479",
-                          "id": 831,
+                          "id": 832,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -1716,18 +1716,18 @@
                             "typeString": "literal_string \"kitty\""
                           }
                         ],
-                        "id": 830,
+                        "id": 831,
                         "name": "keccak256",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1218,
+                        "referencedDeclaration": 1269,
                         "src": "1375:9:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_sha3_pure$__$returns$_t_bytes32_$",
                           "typeString": "function () pure returns (bytes32)"
                         }
                       },
-                      "id": 832,
+                      "id": 833,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
@@ -1748,29 +1748,29 @@
                     }
                   },
                   "falseBody": null,
-                  "id": 845,
+                  "id": 846,
                   "nodeType": "IfStatement",
                   "src": "1348:107:7",
                   "trueBody": {
-                    "id": 844,
+                    "id": 845,
                     "nodeType": "Block",
                     "src": "1395:60:7",
                     "statements": [
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 842,
+                          "id": 843,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
                           "leftHandSide": {
                             "argumentTypes": null,
-                            "id": 834,
+                            "id": 835,
                             "name": "newDna",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 818,
+                            "referencedDeclaration": 819,
                             "src": "1409:6:7",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
@@ -1785,7 +1785,7 @@
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             },
-                            "id": 841,
+                            "id": 842,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -1796,18 +1796,18 @@
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
                               },
-                              "id": 839,
+                              "id": 840,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": false,
                               "lValueRequested": false,
                               "leftExpression": {
                                 "argumentTypes": null,
-                                "id": 835,
+                                "id": 836,
                                 "name": "newDna",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 818,
+                                "referencedDeclaration": 819,
                                 "src": "1418:6:7",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_uint256",
@@ -1822,18 +1822,18 @@
                                   "typeIdentifier": "t_uint256",
                                   "typeString": "uint256"
                                 },
-                                "id": 838,
+                                "id": 839,
                                 "isConstant": false,
                                 "isLValue": false,
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "leftExpression": {
                                   "argumentTypes": null,
-                                  "id": 836,
+                                  "id": 837,
                                   "name": "newDna",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 818,
+                                  "referencedDeclaration": 819,
                                   "src": "1427:6:7",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_uint256",
@@ -1845,7 +1845,7 @@
                                 "rightExpression": {
                                   "argumentTypes": null,
                                   "hexValue": "313030",
-                                  "id": 837,
+                                  "id": 838,
                                   "isConstant": false,
                                   "isLValue": false,
                                   "isPure": true,
@@ -1877,7 +1877,7 @@
                             "rightExpression": {
                               "argumentTypes": null,
                               "hexValue": "3939",
-                              "id": 840,
+                              "id": 841,
                               "isConstant": false,
                               "isLValue": false,
                               "isPure": true,
@@ -1904,7 +1904,7 @@
                             "typeString": "uint256"
                           }
                         },
-                        "id": 843,
+                        "id": 844,
                         "nodeType": "ExpressionStatement",
                         "src": "1409:35:7"
                       }
@@ -1918,7 +1918,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "4e6f4e616d65",
-                        "id": 847,
+                        "id": 848,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -1935,11 +1935,11 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 848,
+                        "id": 849,
                         "name": "newDna",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 818,
+                        "referencedDeclaration": 819,
                         "src": "1488:6:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -1958,18 +1958,18 @@
                           "typeString": "uint256"
                         }
                       ],
-                      "id": 846,
+                      "id": 847,
                       "name": "_createZombie",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 640,
+                      "referencedDeclaration": 641,
                       "src": "1464:13:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_string_memory_ptr_$_t_uint256_$returns$__$",
                         "typeString": "function (string memory,uint256)"
                       }
                     },
-                    "id": 849,
+                    "id": 850,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1983,7 +1983,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 850,
+                  "id": 851,
                   "nodeType": "ExpressionStatement",
                   "src": "1464:31:7"
                 },
@@ -1993,14 +1993,14 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 852,
+                        "id": 853,
                         "name": "myZombie",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 800,
+                        "referencedDeclaration": 801,
                         "src": "1522:8:7",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Zombie_$582_storage_ptr",
+                          "typeIdentifier": "t_struct$_Zombie_$583_storage_ptr",
                           "typeString": "struct ZombieFactory.Zombie storage pointer"
                         }
                       }
@@ -2008,22 +2008,22 @@
                     "expression": {
                       "argumentTypes": [
                         {
-                          "typeIdentifier": "t_struct$_Zombie_$582_storage_ptr",
+                          "typeIdentifier": "t_struct$_Zombie_$583_storage_ptr",
                           "typeString": "struct ZombieFactory.Zombie storage pointer"
                         }
                       ],
-                      "id": 851,
+                      "id": 852,
                       "name": "_triggerCooldown",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 773,
+                      "referencedDeclaration": 774,
                       "src": "1505:16:7",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Zombie_$582_storage_ptr_$returns$__$",
+                        "typeIdentifier": "t_function_internal_nonpayable$_t_struct$_Zombie_$583_storage_ptr_$returns$__$",
                         "typeString": "function (struct ZombieFactory.Zombie storage pointer)"
                       }
                     },
-                    "id": 853,
+                    "id": 854,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2037,14 +2037,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 854,
+                  "id": 855,
                   "nodeType": "ExpressionStatement",
                   "src": "1505:26:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 856,
+            "id": 857,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -2053,11 +2053,11 @@
                 "arguments": [
                   {
                     "argumentTypes": null,
-                    "id": 796,
+                    "id": 797,
                     "name": "_zombieId",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 789,
+                    "referencedDeclaration": 790,
                     "src": "1135:9:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -2065,14 +2065,14 @@
                     }
                   }
                 ],
-                "id": 797,
+                "id": 798,
                 "modifierName": {
                   "argumentTypes": null,
-                  "id": 795,
+                  "id": 796,
                   "name": "onlyOwnerOf",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 743,
+                  "referencedDeclaration": 744,
                   "src": "1123:11:7",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$_t_uint256_$",
@@ -2086,15 +2086,15 @@
             "name": "feedAndMultiply",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 794,
+              "id": 795,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 789,
+                  "id": 790,
                   "name": "_zombieId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 856,
+                  "scope": 857,
                   "src": "1064:14:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2103,7 +2103,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 788,
+                    "id": 789,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1064:4:7",
@@ -2117,10 +2117,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 791,
+                  "id": 792,
                   "name": "_targetDna",
                   "nodeType": "VariableDeclaration",
-                  "scope": 856,
+                  "scope": 857,
                   "src": "1080:15:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2129,7 +2129,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 790,
+                    "id": 791,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1080:4:7",
@@ -2143,10 +2143,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 793,
+                  "id": 794,
                   "name": "_species",
                   "nodeType": "VariableDeclaration",
-                  "scope": 856,
+                  "scope": 857,
                   "src": "1097:15:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2155,7 +2155,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 792,
+                    "id": 793,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1097:6:7",
@@ -2172,12 +2172,12 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 798,
+              "id": 799,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1146:0:7"
             },
-            "scope": 882,
+            "scope": 883,
             "src": "1039:499:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -2185,7 +2185,7 @@
           },
           {
             "body": {
-              "id": 880,
+              "id": 881,
               "nodeType": "Block",
               "src": "1603:150:7",
               "statements": [
@@ -2194,10 +2194,10 @@
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 864,
+                      "id": 865,
                       "name": "kittyDna",
                       "nodeType": "VariableDeclaration",
-                      "scope": 881,
+                      "scope": 882,
                       "src": "1613:13:7",
                       "stateVariable": false,
                       "storageLocation": "default",
@@ -2206,7 +2206,7 @@
                         "typeString": "uint256"
                       },
                       "typeName": {
-                        "id": 863,
+                        "id": 864,
                         "name": "uint",
                         "nodeType": "ElementaryTypeName",
                         "src": "1613:4:7",
@@ -2219,7 +2219,7 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 865,
+                  "id": 866,
                   "initialValue": null,
                   "nodeType": "VariableDeclarationStatement",
                   "src": "1613:13:7"
@@ -2227,7 +2227,7 @@
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 872,
+                    "id": 873,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2246,11 +2246,11 @@
                         null,
                         {
                           "argumentTypes": null,
-                          "id": 866,
+                          "id": 867,
                           "name": "kittyDna",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 864,
+                          "referencedDeclaration": 865,
                           "src": "1647:8:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -2258,7 +2258,7 @@
                           }
                         }
                       ],
-                      "id": 867,
+                      "id": 868,
                       "isConstant": false,
                       "isInlineArray": false,
                       "isLValue": true,
@@ -2278,11 +2278,11 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 870,
+                          "id": 871,
                           "name": "_kittyId",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 860,
+                          "referencedDeclaration": 861,
                           "src": "1682:8:7",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -2299,32 +2299,32 @@
                         ],
                         "expression": {
                           "argumentTypes": null,
-                          "id": 868,
+                          "id": 869,
                           "name": "kittyContract",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 728,
+                          "referencedDeclaration": 729,
                           "src": "1659:13:7",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_KittyInterface_$724",
+                            "typeIdentifier": "t_contract$_KittyInterface_$725",
                             "typeString": "contract KittyInterface"
                           }
                         },
-                        "id": 869,
+                        "id": 870,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "getKitty",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 723,
+                        "referencedDeclaration": 724,
                         "src": "1659:22:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$_t_uint256_$returns$_t_bool_$_t_bool_$_t_uint256_$_t_uint256_$_t_uint256_$_t_uint256_$_t_uint256_$_t_uint256_$_t_uint256_$_t_uint256_$",
                           "typeString": "function (uint256) view external returns (bool,bool,uint256,uint256,uint256,uint256,uint256,uint256,uint256,uint256)"
                         }
                       },
-                      "id": 871,
+                      "id": 872,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2344,7 +2344,7 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 873,
+                  "id": 874,
                   "nodeType": "ExpressionStatement",
                   "src": "1636:55:7"
                 },
@@ -2354,11 +2354,11 @@
                     "arguments": [
                       {
                         "argumentTypes": null,
-                        "id": 875,
+                        "id": 876,
                         "name": "_zombieId",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 858,
+                        "referencedDeclaration": 859,
                         "src": "1717:9:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -2367,11 +2367,11 @@
                       },
                       {
                         "argumentTypes": null,
-                        "id": 876,
+                        "id": 877,
                         "name": "kittyDna",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 864,
+                        "referencedDeclaration": 865,
                         "src": "1728:8:7",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -2381,7 +2381,7 @@
                       {
                         "argumentTypes": null,
                         "hexValue": "6b69747479",
-                        "id": 877,
+                        "id": 878,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
@@ -2412,18 +2412,18 @@
                           "typeString": "literal_string \"kitty\""
                         }
                       ],
-                      "id": 874,
+                      "id": 875,
                       "name": "feedAndMultiply",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 856,
+                      "referencedDeclaration": 857,
                       "src": "1701:15:7",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_internal_nonpayable$_t_uint256_$_t_uint256_$_t_string_memory_ptr_$returns$__$",
                         "typeString": "function (uint256,uint256,string memory)"
                       }
                     },
-                    "id": 878,
+                    "id": 879,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2437,14 +2437,14 @@
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 879,
+                  "id": 880,
                   "nodeType": "ExpressionStatement",
                   "src": "1701:45:7"
                 }
               ]
             },
             "documentation": null,
-            "id": 881,
+            "id": 882,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -2452,15 +2452,15 @@
             "name": "feedOnKitty",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 861,
+              "id": 862,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 858,
+                  "id": 859,
                   "name": "_zombieId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 881,
+                  "scope": 882,
                   "src": "1565:14:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2469,7 +2469,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 857,
+                    "id": 858,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1565:4:7",
@@ -2483,10 +2483,10 @@
                 },
                 {
                   "constant": false,
-                  "id": 860,
+                  "id": 861,
                   "name": "_kittyId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 881,
+                  "scope": 882,
                   "src": "1581:13:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -2495,7 +2495,7 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 859,
+                    "id": 860,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
                     "src": "1581:4:7",
@@ -2512,19 +2512,19 @@
             },
             "payable": false,
             "returnParameters": {
-              "id": 862,
+              "id": 863,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "1603:0:7"
             },
-            "scope": 882,
+            "scope": 883,
             "src": "1544:209:7",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 883,
+        "scope": 884,
         "src": "451:1304:7"
       }
     ],
@@ -2535,10 +2535,10 @@
       "absolutePath": "project:/contracts/zombieFeeding.sol",
       "exportedSymbols": {
         "KittyInterface": [
-          724
+          725
         ],
         "ZombieFeeding": [
-          882
+          883
         ]
       }
     },
@@ -2552,22 +2552,22 @@
             ".22"
           ]
         },
-        "id": 697,
+        "id": 698,
         "name": "PragmaDirective",
         "src": "32:25:7"
       },
       {
         "attributes": {
-          "SourceUnit": 696,
+          "SourceUnit": 697,
           "absolutePath": "project:/contracts/zombieFactory.sol",
           "file": "./zombieFactory.sol",
-          "scope": 883,
+          "scope": 884,
           "symbolAliases": [
             null
           ],
           "unitAlias": ""
         },
-        "id": 698,
+        "id": 699,
         "name": "ImportDirective",
         "src": "59:29:7"
       },
@@ -2583,10 +2583,10 @@
           "documentation": null,
           "fullyImplemented": false,
           "linearizedBaseContracts": [
-            724
+            725
           ],
           "name": "KittyInterface",
-          "scope": 883
+          "scope": 884
         },
         "children": [
           {
@@ -2601,7 +2601,7 @@
               ],
               "name": "getKitty",
               "payable": false,
-              "scope": 724,
+              "scope": 725,
               "stateMutability": "view",
               "superFunction": null,
               "visibility": "external"
@@ -2613,7 +2613,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_id",
-                      "scope": 723,
+                      "scope": 724,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -2626,17 +2626,17 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 699,
+                        "id": 700,
                         "name": "ElementaryTypeName",
                         "src": "138:7:7"
                       }
                     ],
-                    "id": 700,
+                    "id": 701,
                     "name": "VariableDeclaration",
                     "src": "138:11:7"
                   }
                 ],
-                "id": 701,
+                "id": 702,
                 "name": "ParameterList",
                 "src": "137:13:7"
               },
@@ -2646,7 +2646,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "isGestating",
-                      "scope": 723,
+                      "scope": 724,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bool",
@@ -2659,12 +2659,12 @@
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 702,
+                        "id": 703,
                         "name": "ElementaryTypeName",
                         "src": "183:4:7"
                       }
                     ],
-                    "id": 703,
+                    "id": 704,
                     "name": "VariableDeclaration",
                     "src": "183:16:7"
                   },
@@ -2672,7 +2672,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "isReady",
-                      "scope": 723,
+                      "scope": 724,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bool",
@@ -2685,12 +2685,12 @@
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 704,
+                        "id": 705,
                         "name": "ElementaryTypeName",
                         "src": "209:4:7"
                       }
                     ],
-                    "id": 705,
+                    "id": 706,
                     "name": "VariableDeclaration",
                     "src": "209:12:7"
                   },
@@ -2698,7 +2698,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "cooldownIndex",
-                      "scope": 723,
+                      "scope": 724,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -2711,12 +2711,12 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 706,
+                        "id": 707,
                         "name": "ElementaryTypeName",
                         "src": "231:7:7"
                       }
                     ],
-                    "id": 707,
+                    "id": 708,
                     "name": "VariableDeclaration",
                     "src": "231:21:7"
                   },
@@ -2724,7 +2724,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "nextActionAt",
-                      "scope": 723,
+                      "scope": 724,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -2737,12 +2737,12 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 708,
+                        "id": 709,
                         "name": "ElementaryTypeName",
                         "src": "262:7:7"
                       }
                     ],
-                    "id": 709,
+                    "id": 710,
                     "name": "VariableDeclaration",
                     "src": "262:20:7"
                   },
@@ -2750,7 +2750,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "siringWithId",
-                      "scope": 723,
+                      "scope": 724,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -2763,12 +2763,12 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 710,
+                        "id": 711,
                         "name": "ElementaryTypeName",
                         "src": "292:7:7"
                       }
                     ],
-                    "id": 711,
+                    "id": 712,
                     "name": "VariableDeclaration",
                     "src": "292:20:7"
                   },
@@ -2776,7 +2776,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "birthTime",
-                      "scope": 723,
+                      "scope": 724,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -2789,12 +2789,12 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 712,
+                        "id": 713,
                         "name": "ElementaryTypeName",
                         "src": "322:7:7"
                       }
                     ],
-                    "id": 713,
+                    "id": 714,
                     "name": "VariableDeclaration",
                     "src": "322:17:7"
                   },
@@ -2802,7 +2802,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "matronId",
-                      "scope": 723,
+                      "scope": 724,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -2815,12 +2815,12 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 714,
+                        "id": 715,
                         "name": "ElementaryTypeName",
                         "src": "349:7:7"
                       }
                     ],
-                    "id": 715,
+                    "id": 716,
                     "name": "VariableDeclaration",
                     "src": "349:16:7"
                   },
@@ -2828,7 +2828,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "sireId",
-                      "scope": 723,
+                      "scope": 724,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -2841,12 +2841,12 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 716,
+                        "id": 717,
                         "name": "ElementaryTypeName",
                         "src": "375:7:7"
                       }
                     ],
-                    "id": 717,
+                    "id": 718,
                     "name": "VariableDeclaration",
                     "src": "375:14:7"
                   },
@@ -2854,7 +2854,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "generation",
-                      "scope": 723,
+                      "scope": 724,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -2867,12 +2867,12 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 718,
+                        "id": 719,
                         "name": "ElementaryTypeName",
                         "src": "399:7:7"
                       }
                     ],
-                    "id": 719,
+                    "id": 720,
                     "name": "VariableDeclaration",
                     "src": "399:18:7"
                   },
@@ -2880,7 +2880,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "genes",
-                      "scope": 723,
+                      "scope": 724,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -2893,27 +2893,27 @@
                           "name": "uint256",
                           "type": "uint256"
                         },
-                        "id": 720,
+                        "id": 721,
                         "name": "ElementaryTypeName",
                         "src": "427:7:7"
                       }
                     ],
-                    "id": 721,
+                    "id": 722,
                     "name": "VariableDeclaration",
                     "src": "427:13:7"
                   }
                 ],
-                "id": 722,
+                "id": 723,
                 "name": "ParameterList",
                 "src": "173:273:7"
               }
             ],
-            "id": 723,
+            "id": 724,
             "name": "FunctionDefinition",
             "src": "120:327:7"
           }
         ],
-        "id": 724,
+        "id": 725,
         "name": "ContractDefinition",
         "src": "90:359:7"
       },
@@ -2921,18 +2921,18 @@
         "attributes": {
           "contractDependencies": [
             146,
-            695
+            696
           ],
           "contractKind": "contract",
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            882,
-            695,
+            883,
+            696,
             146
           ],
           "name": "ZombieFeeding",
-          "scope": 883
+          "scope": 884
         },
         "children": [
           {
@@ -2944,15 +2944,15 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "ZombieFactory",
-                  "referencedDeclaration": 695,
+                  "referencedDeclaration": 696,
                   "type": "contract ZombieFactory"
                 },
-                "id": 725,
+                "id": 726,
                 "name": "UserDefinedTypeName",
                 "src": "477:13:7"
               }
             ],
-            "id": 726,
+            "id": 727,
             "name": "InheritanceSpecifier",
             "src": "477:13:7"
           },
@@ -2960,7 +2960,7 @@
             "attributes": {
               "constant": false,
               "name": "kittyContract",
-              "scope": 882,
+              "scope": 883,
               "stateVariable": true,
               "storageLocation": "default",
               "type": "contract KittyInterface",
@@ -2972,15 +2972,15 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "KittyInterface",
-                  "referencedDeclaration": 724,
+                  "referencedDeclaration": 725,
                   "type": "contract KittyInterface"
                 },
-                "id": 727,
+                "id": 728,
                 "name": "UserDefinedTypeName",
                 "src": "498:14:7"
               }
             ],
-            "id": 728,
+            "id": 729,
             "name": "VariableDeclaration",
             "src": "498:28:7"
           },
@@ -2997,7 +2997,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_zombieId",
-                      "scope": 743,
+                      "scope": 744,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -3010,17 +3010,17 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 729,
+                        "id": 730,
                         "name": "ElementaryTypeName",
                         "src": "554:4:7"
                       }
                     ],
-                    "id": 730,
+                    "id": 731,
                     "name": "VariableDeclaration",
                     "src": "554:14:7"
                   }
                 ],
-                "id": 731,
+                "id": 732,
                 "name": "ParameterList",
                 "src": "553:16:7"
               },
@@ -3052,14 +3052,14 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1227,
-                                1228
+                                1278,
+                                1279
                               ],
-                              "referencedDeclaration": 1227,
+                              "referencedDeclaration": 1278,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
-                            "id": 732,
+                            "id": 733,
                             "name": "Identifier",
                             "src": "580:7:7"
                           },
@@ -3096,16 +3096,16 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 1224,
+                                      "referencedDeclaration": 1275,
                                       "type": "msg",
                                       "value": "msg"
                                     },
-                                    "id": 733,
+                                    "id": 734,
                                     "name": "Identifier",
                                     "src": "588:3:7"
                                   }
                                 ],
-                                "id": 734,
+                                "id": 735,
                                 "name": "MemberAccess",
                                 "src": "588:10:7"
                               },
@@ -3125,11 +3125,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 589,
+                                      "referencedDeclaration": 590,
                                       "type": "mapping(uint256 => address)",
                                       "value": "zombieToOwner"
                                     },
-                                    "id": 735,
+                                    "id": 736,
                                     "name": "Identifier",
                                     "src": "602:13:7"
                                   },
@@ -3139,46 +3139,46 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 730,
+                                      "referencedDeclaration": 731,
                                       "type": "uint256",
                                       "value": "_zombieId"
                                     },
-                                    "id": 736,
+                                    "id": 737,
                                     "name": "Identifier",
                                     "src": "616:9:7"
                                   }
                                 ],
-                                "id": 737,
+                                "id": 738,
                                 "name": "IndexAccess",
                                 "src": "602:24:7"
                               }
                             ],
-                            "id": 738,
+                            "id": 739,
                             "name": "BinaryOperation",
                             "src": "588:38:7"
                           }
                         ],
-                        "id": 739,
+                        "id": 740,
                         "name": "FunctionCall",
                         "src": "580:47:7"
                       }
                     ],
-                    "id": 740,
+                    "id": 741,
                     "name": "ExpressionStatement",
                     "src": "580:47:7"
                   },
                   {
-                    "id": 741,
+                    "id": 742,
                     "name": "PlaceholderStatement",
                     "src": "637:1:7"
                   }
                 ],
-                "id": 742,
+                "id": 743,
                 "name": "Block",
                 "src": "570:75:7"
               }
             ],
-            "id": 743,
+            "id": 744,
             "name": "ModifierDefinition",
             "src": "533:112:7"
           },
@@ -3190,7 +3190,7 @@
               "isConstructor": false,
               "name": "setKittyContractAddress",
               "payable": false,
-              "scope": 882,
+              "scope": 883,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "external"
@@ -3202,7 +3202,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_address",
-                      "scope": 757,
+                      "scope": 758,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -3215,17 +3215,17 @@
                           "name": "address",
                           "type": "address"
                         },
-                        "id": 744,
+                        "id": 745,
                         "name": "ElementaryTypeName",
                         "src": "684:7:7"
                       }
                     ],
-                    "id": 745,
+                    "id": 746,
                     "name": "VariableDeclaration",
                     "src": "684:16:7"
                   }
                 ],
-                "id": 746,
+                "id": 747,
                 "name": "ParameterList",
                 "src": "683:18:7"
               },
@@ -3236,7 +3236,7 @@
                   ]
                 },
                 "children": [],
-                "id": 749,
+                "id": 750,
                 "name": "ParameterList",
                 "src": "721:0:7"
               },
@@ -3255,12 +3255,12 @@
                       "type": "modifier ()",
                       "value": "onlyOwner"
                     },
-                    "id": 747,
+                    "id": 748,
                     "name": "Identifier",
                     "src": "711:9:7"
                   }
                 ],
-                "id": 748,
+                "id": 749,
                 "name": "ModifierInvocation",
                 "src": "711:9:7"
               },
@@ -3285,11 +3285,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 728,
+                              "referencedDeclaration": 729,
                               "type": "contract KittyInterface",
                               "value": "kittyContract"
                             },
-                            "id": 750,
+                            "id": 751,
                             "name": "Identifier",
                             "src": "731:13:7"
                           },
@@ -3319,11 +3319,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 724,
+                                  "referencedDeclaration": 725,
                                   "type": "type(contract KittyInterface)",
                                   "value": "KittyInterface"
                                 },
-                                "id": 751,
+                                "id": 752,
                                 "name": "Identifier",
                                 "src": "747:14:7"
                               },
@@ -3333,36 +3333,36 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 745,
+                                  "referencedDeclaration": 746,
                                   "type": "address",
                                   "value": "_address"
                                 },
-                                "id": 752,
+                                "id": 753,
                                 "name": "Identifier",
                                 "src": "762:8:7"
                               }
                             ],
-                            "id": 753,
+                            "id": 754,
                             "name": "FunctionCall",
                             "src": "747:24:7"
                           }
                         ],
-                        "id": 754,
+                        "id": 755,
                         "name": "Assignment",
                         "src": "731:40:7"
                       }
                     ],
-                    "id": 755,
+                    "id": 756,
                     "name": "ExpressionStatement",
                     "src": "731:40:7"
                   }
                 ],
-                "id": 756,
+                "id": 757,
                 "name": "Block",
                 "src": "721:57:7"
               }
             ],
-            "id": 757,
+            "id": 758,
             "name": "FunctionDefinition",
             "src": "651:127:7"
           },
@@ -3377,7 +3377,7 @@
               ],
               "name": "_triggerCooldown",
               "payable": false,
-              "scope": 882,
+              "scope": 883,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "internal"
@@ -3389,7 +3389,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_zombie",
-                      "scope": 773,
+                      "scope": 774,
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "type": "struct ZombieFactory.Zombie",
@@ -3401,20 +3401,20 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "Zombie",
-                          "referencedDeclaration": 582,
+                          "referencedDeclaration": 583,
                           "type": "struct ZombieFactory.Zombie"
                         },
-                        "id": 758,
+                        "id": 759,
                         "name": "UserDefinedTypeName",
                         "src": "810:6:7"
                       }
                     ],
-                    "id": 759,
+                    "id": 760,
                     "name": "VariableDeclaration",
                     "src": "810:22:7"
                   }
                 ],
-                "id": 760,
+                "id": 761,
                 "name": "ParameterList",
                 "src": "809:24:7"
               },
@@ -3425,7 +3425,7 @@
                   ]
                 },
                 "children": [],
-                "id": 761,
+                "id": 762,
                 "name": "ParameterList",
                 "src": "843:0:7"
               },
@@ -3452,7 +3452,7 @@
                               "isPure": false,
                               "lValueRequested": true,
                               "member_name": "readyTime",
-                              "referencedDeclaration": 577,
+                              "referencedDeclaration": 578,
                               "type": "uint32"
                             },
                             "children": [
@@ -3462,16 +3462,16 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 759,
+                                  "referencedDeclaration": 760,
                                   "type": "struct ZombieFactory.Zombie storage pointer",
                                   "value": "_zombie"
                                 },
-                                "id": 762,
+                                "id": 763,
                                 "name": "Identifier",
                                 "src": "853:7:7"
                               }
                             ],
-                            "id": 764,
+                            "id": 765,
                             "name": "MemberAccess",
                             "src": "853:17:7"
                           },
@@ -3505,7 +3505,7 @@
                                   "type": "type(uint32)",
                                   "value": "uint32"
                                 },
-                                "id": 765,
+                                "id": 766,
                                 "name": "ElementaryTypeNameExpression",
                                 "src": "873:6:7"
                               },
@@ -3530,11 +3530,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 1226,
+                                      "referencedDeclaration": 1277,
                                       "type": "uint256",
                                       "value": "now"
                                     },
-                                    "id": 766,
+                                    "id": 767,
                                     "name": "Identifier",
                                     "src": "880:3:7"
                                   },
@@ -3544,41 +3544,41 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 569,
+                                      "referencedDeclaration": 570,
                                       "type": "uint256",
                                       "value": "cooldownTime"
                                     },
-                                    "id": 767,
+                                    "id": 768,
                                     "name": "Identifier",
                                     "src": "886:12:7"
                                   }
                                 ],
-                                "id": 768,
+                                "id": 769,
                                 "name": "BinaryOperation",
                                 "src": "880:18:7"
                               }
                             ],
-                            "id": 769,
+                            "id": 770,
                             "name": "FunctionCall",
                             "src": "873:26:7"
                           }
                         ],
-                        "id": 770,
+                        "id": 771,
                         "name": "Assignment",
                         "src": "853:46:7"
                       }
                     ],
-                    "id": 771,
+                    "id": 772,
                     "name": "ExpressionStatement",
                     "src": "853:46:7"
                   }
                 ],
-                "id": 772,
+                "id": 773,
                 "name": "Block",
                 "src": "843:63:7"
               }
             ],
-            "id": 773,
+            "id": 774,
             "name": "FunctionDefinition",
             "src": "784:122:7"
           },
@@ -3593,7 +3593,7 @@
               ],
               "name": "_isReady",
               "payable": false,
-              "scope": 882,
+              "scope": 883,
               "stateMutability": "view",
               "superFunction": null,
               "visibility": "internal"
@@ -3605,7 +3605,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_zombie",
-                      "scope": 787,
+                      "scope": 788,
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "type": "struct ZombieFactory.Zombie",
@@ -3617,20 +3617,20 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "Zombie",
-                          "referencedDeclaration": 582,
+                          "referencedDeclaration": 583,
                           "type": "struct ZombieFactory.Zombie"
                         },
-                        "id": 774,
+                        "id": 775,
                         "name": "UserDefinedTypeName",
                         "src": "930:6:7"
                       }
                     ],
-                    "id": 775,
+                    "id": 776,
                     "name": "VariableDeclaration",
                     "src": "930:22:7"
                   }
                 ],
-                "id": 776,
+                "id": 777,
                 "name": "ParameterList",
                 "src": "929:24:7"
               },
@@ -3640,7 +3640,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 787,
+                      "scope": 788,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bool",
@@ -3653,17 +3653,17 @@
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 777,
+                        "id": 778,
                         "name": "ElementaryTypeName",
                         "src": "977:4:7"
                       }
                     ],
-                    "id": 778,
+                    "id": 779,
                     "name": "VariableDeclaration",
                     "src": "977:4:7"
                   }
                 ],
-                "id": 779,
+                "id": 780,
                 "name": "ParameterList",
                 "src": "976:6:7"
               },
@@ -3671,7 +3671,7 @@
                 "children": [
                   {
                     "attributes": {
-                      "functionReturnParameters": 779
+                      "functionReturnParameters": 780
                     },
                     "children": [
                       {
@@ -3708,7 +3708,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "readyTime",
-                                  "referencedDeclaration": 577,
+                                  "referencedDeclaration": 578,
                                   "type": "uint32"
                                 },
                                 "children": [
@@ -3718,16 +3718,16 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 775,
+                                      "referencedDeclaration": 776,
                                       "type": "struct ZombieFactory.Zombie storage pointer",
                                       "value": "_zombie"
                                     },
-                                    "id": 780,
+                                    "id": 781,
                                     "name": "Identifier",
                                     "src": "1001:7:7"
                                   }
                                 ],
-                                "id": 781,
+                                "id": 782,
                                 "name": "MemberAccess",
                                 "src": "1001:17:7"
                               },
@@ -3737,36 +3737,36 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 1226,
+                                  "referencedDeclaration": 1277,
                                   "type": "uint256",
                                   "value": "now"
                                 },
-                                "id": 782,
+                                "id": 783,
                                 "name": "Identifier",
                                 "src": "1022:3:7"
                               }
                             ],
-                            "id": 783,
+                            "id": 784,
                             "name": "BinaryOperation",
                             "src": "1001:24:7"
                           }
                         ],
-                        "id": 784,
+                        "id": 785,
                         "name": "TupleExpression",
                         "src": "1000:26:7"
                       }
                     ],
-                    "id": 785,
+                    "id": 786,
                     "name": "Return",
                     "src": "993:33:7"
                   }
                 ],
-                "id": 786,
+                "id": 787,
                 "name": "Block",
                 "src": "983:50:7"
               }
             ],
-            "id": 787,
+            "id": 788,
             "name": "FunctionDefinition",
             "src": "912:121:7"
           },
@@ -3778,7 +3778,7 @@
               "isConstructor": false,
               "name": "feedAndMultiply",
               "payable": false,
-              "scope": 882,
+              "scope": 883,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "internal"
@@ -3790,7 +3790,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_zombieId",
-                      "scope": 856,
+                      "scope": 857,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -3803,12 +3803,12 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 788,
+                        "id": 789,
                         "name": "ElementaryTypeName",
                         "src": "1064:4:7"
                       }
                     ],
-                    "id": 789,
+                    "id": 790,
                     "name": "VariableDeclaration",
                     "src": "1064:14:7"
                   },
@@ -3816,7 +3816,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_targetDna",
-                      "scope": 856,
+                      "scope": 857,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -3829,12 +3829,12 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 790,
+                        "id": 791,
                         "name": "ElementaryTypeName",
                         "src": "1080:4:7"
                       }
                     ],
-                    "id": 791,
+                    "id": 792,
                     "name": "VariableDeclaration",
                     "src": "1080:15:7"
                   },
@@ -3842,7 +3842,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_species",
-                      "scope": 856,
+                      "scope": 857,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "string",
@@ -3855,17 +3855,17 @@
                           "name": "string",
                           "type": "string"
                         },
-                        "id": 792,
+                        "id": 793,
                         "name": "ElementaryTypeName",
                         "src": "1097:6:7"
                       }
                     ],
-                    "id": 793,
+                    "id": 794,
                     "name": "VariableDeclaration",
                     "src": "1097:15:7"
                   }
                 ],
-                "id": 794,
+                "id": 795,
                 "name": "ParameterList",
                 "src": "1063:50:7"
               },
@@ -3876,7 +3876,7 @@
                   ]
                 },
                 "children": [],
-                "id": 798,
+                "id": 799,
                 "name": "ParameterList",
                 "src": "1146:0:7"
               },
@@ -3888,11 +3888,11 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 743,
+                      "referencedDeclaration": 744,
                       "type": "modifier (uint256)",
                       "value": "onlyOwnerOf"
                     },
-                    "id": 795,
+                    "id": 796,
                     "name": "Identifier",
                     "src": "1123:11:7"
                   },
@@ -3902,16 +3902,16 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 789,
+                      "referencedDeclaration": 790,
                       "type": "uint256",
                       "value": "_zombieId"
                     },
-                    "id": 796,
+                    "id": 797,
                     "name": "Identifier",
                     "src": "1135:9:7"
                   }
                 ],
-                "id": 797,
+                "id": 798,
                 "name": "ModifierInvocation",
                 "src": "1123:22:7"
               },
@@ -3920,7 +3920,7 @@
                   {
                     "attributes": {
                       "assignments": [
-                        800
+                        801
                       ]
                     },
                     "children": [
@@ -3928,7 +3928,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "myZombie",
-                          "scope": 856,
+                          "scope": 857,
                           "stateVariable": false,
                           "storageLocation": "storage",
                           "type": "struct ZombieFactory.Zombie",
@@ -3940,15 +3940,15 @@
                             "attributes": {
                               "contractScope": null,
                               "name": "Zombie",
-                              "referencedDeclaration": 582,
+                              "referencedDeclaration": 583,
                               "type": "struct ZombieFactory.Zombie"
                             },
-                            "id": 799,
+                            "id": 800,
                             "name": "UserDefinedTypeName",
                             "src": "1156:6:7"
                           }
                         ],
-                        "id": 800,
+                        "id": 801,
                         "name": "VariableDeclaration",
                         "src": "1156:23:7"
                       },
@@ -3968,11 +3968,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 585,
+                              "referencedDeclaration": 586,
                               "type": "struct ZombieFactory.Zombie storage ref[] storage ref",
                               "value": "zombies"
                             },
-                            "id": 801,
+                            "id": 802,
                             "name": "Identifier",
                             "src": "1182:7:7"
                           },
@@ -3982,21 +3982,21 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 789,
+                              "referencedDeclaration": 790,
                               "type": "uint256",
                               "value": "_zombieId"
                             },
-                            "id": 802,
+                            "id": 803,
                             "name": "Identifier",
                             "src": "1190:9:7"
                           }
                         ],
-                        "id": 803,
+                        "id": 804,
                         "name": "IndexAccess",
                         "src": "1182:18:7"
                       }
                     ],
-                    "id": 804,
+                    "id": 805,
                     "name": "VariableDeclarationStatement",
                     "src": "1156:44:7"
                   },
@@ -4026,14 +4026,14 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1227,
-                                1228
+                                1278,
+                                1279
                               ],
-                              "referencedDeclaration": 1227,
+                              "referencedDeclaration": 1278,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
-                            "id": 805,
+                            "id": 806,
                             "name": "Identifier",
                             "src": "1210:7:7"
                           },
@@ -4056,18 +4056,18 @@
                                 "attributes": {
                                   "argumentTypes": [
                                     {
-                                      "typeIdentifier": "t_struct$_Zombie_$582_storage_ptr",
+                                      "typeIdentifier": "t_struct$_Zombie_$583_storage_ptr",
                                       "typeString": "struct ZombieFactory.Zombie storage pointer"
                                     }
                                   ],
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 787,
+                                  "referencedDeclaration": 788,
                                   "type": "function (struct ZombieFactory.Zombie storage pointer) view returns (bool)",
                                   "value": "_isReady"
                                 },
-                                "id": 806,
+                                "id": 807,
                                 "name": "Identifier",
                                 "src": "1218:8:7"
                               },
@@ -4077,26 +4077,26 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 800,
+                                  "referencedDeclaration": 801,
                                   "type": "struct ZombieFactory.Zombie storage pointer",
                                   "value": "myZombie"
                                 },
-                                "id": 807,
+                                "id": 808,
                                 "name": "Identifier",
                                 "src": "1227:8:7"
                               }
                             ],
-                            "id": 808,
+                            "id": 809,
                             "name": "FunctionCall",
                             "src": "1218:18:7"
                           }
                         ],
-                        "id": 809,
+                        "id": 810,
                         "name": "FunctionCall",
                         "src": "1210:27:7"
                       }
                     ],
-                    "id": 810,
+                    "id": 811,
                     "name": "ExpressionStatement",
                     "src": "1210:27:7"
                   },
@@ -4119,11 +4119,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 791,
+                              "referencedDeclaration": 792,
                               "type": "uint256",
                               "value": "_targetDna"
                             },
-                            "id": 811,
+                            "id": 812,
                             "name": "Identifier",
                             "src": "1247:10:7"
                           },
@@ -4148,11 +4148,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 791,
+                                  "referencedDeclaration": 792,
                                   "type": "uint256",
                                   "value": "_targetDna"
                                 },
-                                "id": 812,
+                                "id": 813,
                                 "name": "Identifier",
                                 "src": "1260:10:7"
                               },
@@ -4162,33 +4162,33 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 566,
+                                  "referencedDeclaration": 567,
                                   "type": "uint256",
                                   "value": "dnaModulus"
                                 },
-                                "id": 813,
+                                "id": 814,
                                 "name": "Identifier",
                                 "src": "1273:10:7"
                               }
                             ],
-                            "id": 814,
+                            "id": 815,
                             "name": "BinaryOperation",
                             "src": "1260:23:7"
                           }
                         ],
-                        "id": 815,
+                        "id": 816,
                         "name": "Assignment",
                         "src": "1247:36:7"
                       }
                     ],
-                    "id": 816,
+                    "id": 817,
                     "name": "ExpressionStatement",
                     "src": "1247:36:7"
                   },
                   {
                     "attributes": {
                       "assignments": [
-                        818
+                        819
                       ]
                     },
                     "children": [
@@ -4196,7 +4196,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "newDna",
-                          "scope": 856,
+                          "scope": 857,
                           "stateVariable": false,
                           "storageLocation": "default",
                           "type": "uint256",
@@ -4209,12 +4209,12 @@
                               "name": "uint",
                               "type": "uint256"
                             },
-                            "id": 817,
+                            "id": 818,
                             "name": "ElementaryTypeName",
                             "src": "1293:4:7"
                           }
                         ],
-                        "id": 818,
+                        "id": 819,
                         "name": "VariableDeclaration",
                         "src": "1293:11:7"
                       },
@@ -4267,7 +4267,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "dna",
-                                      "referencedDeclaration": 573,
+                                      "referencedDeclaration": 574,
                                       "type": "uint256"
                                     },
                                     "children": [
@@ -4277,16 +4277,16 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 800,
+                                          "referencedDeclaration": 801,
                                           "type": "struct ZombieFactory.Zombie storage pointer",
                                           "value": "myZombie"
                                         },
-                                        "id": 819,
+                                        "id": 820,
                                         "name": "Identifier",
                                         "src": "1308:8:7"
                                       }
                                     ],
-                                    "id": 820,
+                                    "id": 821,
                                     "name": "MemberAccess",
                                     "src": "1308:12:7"
                                   },
@@ -4296,21 +4296,21 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 791,
+                                      "referencedDeclaration": 792,
                                       "type": "uint256",
                                       "value": "_targetDna"
                                     },
-                                    "id": 821,
+                                    "id": 822,
                                     "name": "Identifier",
                                     "src": "1323:10:7"
                                   }
                                 ],
-                                "id": 822,
+                                "id": 823,
                                 "name": "BinaryOperation",
                                 "src": "1308:25:7"
                               }
                             ],
-                            "id": 823,
+                            "id": 824,
                             "name": "TupleExpression",
                             "src": "1307:27:7"
                           },
@@ -4327,17 +4327,17 @@
                               "type": "int_const 2",
                               "value": "2"
                             },
-                            "id": 824,
+                            "id": 825,
                             "name": "Literal",
                             "src": "1337:1:7"
                           }
                         ],
-                        "id": 825,
+                        "id": 826,
                         "name": "BinaryOperation",
                         "src": "1307:31:7"
                       }
                     ],
-                    "id": 826,
+                    "id": 827,
                     "name": "VariableDeclarationStatement",
                     "src": "1293:45:7"
                   },
@@ -4387,11 +4387,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 1218,
+                                  "referencedDeclaration": 1269,
                                   "type": "function () pure returns (bytes32)",
                                   "value": "keccak256"
                                 },
-                                "id": 827,
+                                "id": 828,
                                 "name": "Identifier",
                                 "src": "1352:9:7"
                               },
@@ -4401,16 +4401,16 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 793,
+                                  "referencedDeclaration": 794,
                                   "type": "string memory",
                                   "value": "_species"
                                 },
-                                "id": 828,
+                                "id": 829,
                                 "name": "Identifier",
                                 "src": "1362:8:7"
                               }
                             ],
-                            "id": 829,
+                            "id": 830,
                             "name": "FunctionCall",
                             "src": "1352:19:7"
                           },
@@ -4440,11 +4440,11 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 1218,
+                                  "referencedDeclaration": 1269,
                                   "type": "function () pure returns (bytes32)",
                                   "value": "keccak256"
                                 },
-                                "id": 830,
+                                "id": 831,
                                 "name": "Identifier",
                                 "src": "1375:9:7"
                               },
@@ -4461,17 +4461,17 @@
                                   "type": "literal_string \"kitty\"",
                                   "value": "kitty"
                                 },
-                                "id": 831,
+                                "id": 832,
                                 "name": "Literal",
                                 "src": "1385:7:7"
                               }
                             ],
-                            "id": 832,
+                            "id": 833,
                             "name": "FunctionCall",
                             "src": "1375:18:7"
                           }
                         ],
-                        "id": 833,
+                        "id": 834,
                         "name": "BinaryOperation",
                         "src": "1352:41:7"
                       },
@@ -4496,11 +4496,11 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 818,
+                                      "referencedDeclaration": 819,
                                       "type": "uint256",
                                       "value": "newDna"
                                     },
-                                    "id": 834,
+                                    "id": 835,
                                     "name": "Identifier",
                                     "src": "1409:6:7"
                                   },
@@ -4540,11 +4540,11 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 818,
+                                              "referencedDeclaration": 819,
                                               "type": "uint256",
                                               "value": "newDna"
                                             },
-                                            "id": 835,
+                                            "id": 836,
                                             "name": "Identifier",
                                             "src": "1418:6:7"
                                           },
@@ -4569,11 +4569,11 @@
                                                   "overloadedDeclarations": [
                                                     null
                                                   ],
-                                                  "referencedDeclaration": 818,
+                                                  "referencedDeclaration": 819,
                                                   "type": "uint256",
                                                   "value": "newDna"
                                                 },
-                                                "id": 836,
+                                                "id": 837,
                                                 "name": "Identifier",
                                                 "src": "1427:6:7"
                                               },
@@ -4590,17 +4590,17 @@
                                                   "type": "int_const 100",
                                                   "value": "100"
                                                 },
-                                                "id": 837,
+                                                "id": 838,
                                                 "name": "Literal",
                                                 "src": "1436:3:7"
                                               }
                                             ],
-                                            "id": 838,
+                                            "id": 839,
                                             "name": "BinaryOperation",
                                             "src": "1427:12:7"
                                           }
                                         ],
-                                        "id": 839,
+                                        "id": 840,
                                         "name": "BinaryOperation",
                                         "src": "1418:21:7"
                                       },
@@ -4617,32 +4617,32 @@
                                           "type": "int_const 99",
                                           "value": "99"
                                         },
-                                        "id": 840,
+                                        "id": 841,
                                         "name": "Literal",
                                         "src": "1442:2:7"
                                       }
                                     ],
-                                    "id": 841,
+                                    "id": 842,
                                     "name": "BinaryOperation",
                                     "src": "1418:26:7"
                                   }
                                 ],
-                                "id": 842,
+                                "id": 843,
                                 "name": "Assignment",
                                 "src": "1409:35:7"
                               }
                             ],
-                            "id": 843,
+                            "id": 844,
                             "name": "ExpressionStatement",
                             "src": "1409:35:7"
                           }
                         ],
-                        "id": 844,
+                        "id": 845,
                         "name": "Block",
                         "src": "1395:60:7"
                       }
                     ],
-                    "id": 845,
+                    "id": 846,
                     "name": "IfStatement",
                     "src": "1348:107:7"
                   },
@@ -4678,11 +4678,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 640,
+                              "referencedDeclaration": 641,
                               "type": "function (string memory,uint256)",
                               "value": "_createZombie"
                             },
-                            "id": 846,
+                            "id": 847,
                             "name": "Identifier",
                             "src": "1464:13:7"
                           },
@@ -4699,7 +4699,7 @@
                               "type": "literal_string \"NoName\"",
                               "value": "NoName"
                             },
-                            "id": 847,
+                            "id": 848,
                             "name": "Literal",
                             "src": "1478:8:7"
                           },
@@ -4709,21 +4709,21 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 818,
+                              "referencedDeclaration": 819,
                               "type": "uint256",
                               "value": "newDna"
                             },
-                            "id": 848,
+                            "id": 849,
                             "name": "Identifier",
                             "src": "1488:6:7"
                           }
                         ],
-                        "id": 849,
+                        "id": 850,
                         "name": "FunctionCall",
                         "src": "1464:31:7"
                       }
                     ],
-                    "id": 850,
+                    "id": 851,
                     "name": "ExpressionStatement",
                     "src": "1464:31:7"
                   },
@@ -4748,18 +4748,18 @@
                             "attributes": {
                               "argumentTypes": [
                                 {
-                                  "typeIdentifier": "t_struct$_Zombie_$582_storage_ptr",
+                                  "typeIdentifier": "t_struct$_Zombie_$583_storage_ptr",
                                   "typeString": "struct ZombieFactory.Zombie storage pointer"
                                 }
                               ],
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 773,
+                              "referencedDeclaration": 774,
                               "type": "function (struct ZombieFactory.Zombie storage pointer)",
                               "value": "_triggerCooldown"
                             },
-                            "id": 851,
+                            "id": 852,
                             "name": "Identifier",
                             "src": "1505:16:7"
                           },
@@ -4769,31 +4769,31 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 800,
+                              "referencedDeclaration": 801,
                               "type": "struct ZombieFactory.Zombie storage pointer",
                               "value": "myZombie"
                             },
-                            "id": 852,
+                            "id": 853,
                             "name": "Identifier",
                             "src": "1522:8:7"
                           }
                         ],
-                        "id": 853,
+                        "id": 854,
                         "name": "FunctionCall",
                         "src": "1505:26:7"
                       }
                     ],
-                    "id": 854,
+                    "id": 855,
                     "name": "ExpressionStatement",
                     "src": "1505:26:7"
                   }
                 ],
-                "id": 855,
+                "id": 856,
                 "name": "Block",
                 "src": "1146:392:7"
               }
             ],
-            "id": 856,
+            "id": 857,
             "name": "FunctionDefinition",
             "src": "1039:499:7"
           },
@@ -4808,7 +4808,7 @@
               ],
               "name": "feedOnKitty",
               "payable": false,
-              "scope": 882,
+              "scope": 883,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -4820,7 +4820,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_zombieId",
-                      "scope": 881,
+                      "scope": 882,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -4833,12 +4833,12 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 857,
+                        "id": 858,
                         "name": "ElementaryTypeName",
                         "src": "1565:4:7"
                       }
                     ],
-                    "id": 858,
+                    "id": 859,
                     "name": "VariableDeclaration",
                     "src": "1565:14:7"
                   },
@@ -4846,7 +4846,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "_kittyId",
-                      "scope": 881,
+                      "scope": 882,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "uint256",
@@ -4859,17 +4859,17 @@
                           "name": "uint",
                           "type": "uint256"
                         },
-                        "id": 859,
+                        "id": 860,
                         "name": "ElementaryTypeName",
                         "src": "1581:4:7"
                       }
                     ],
-                    "id": 860,
+                    "id": 861,
                     "name": "VariableDeclaration",
                     "src": "1581:13:7"
                   }
                 ],
-                "id": 861,
+                "id": 862,
                 "name": "ParameterList",
                 "src": "1564:31:7"
               },
@@ -4880,7 +4880,7 @@
                   ]
                 },
                 "children": [],
-                "id": 862,
+                "id": 863,
                 "name": "ParameterList",
                 "src": "1603:0:7"
               },
@@ -4898,7 +4898,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "kittyDna",
-                          "scope": 881,
+                          "scope": 882,
                           "stateVariable": false,
                           "storageLocation": "default",
                           "type": "uint256",
@@ -4911,17 +4911,17 @@
                               "name": "uint",
                               "type": "uint256"
                             },
-                            "id": 863,
+                            "id": 864,
                             "name": "ElementaryTypeName",
                             "src": "1613:4:7"
                           }
                         ],
-                        "id": 864,
+                        "id": 865,
                         "name": "VariableDeclaration",
                         "src": "1613:13:7"
                       }
                     ],
-                    "id": 865,
+                    "id": 866,
                     "name": "VariableDeclarationStatement",
                     "src": "1613:13:7"
                   },
@@ -4957,11 +4957,11 @@
                                     "overloadedDeclarations": [
                                       null
                                     ],
-                                    "referencedDeclaration": 864,
+                                    "referencedDeclaration": 865,
                                     "type": "uint256",
                                     "value": "kittyDna"
                                   },
-                                  "id": 866,
+                                  "id": 867,
                                   "name": "Identifier",
                                   "src": "1647:8:7"
                                 }
@@ -4973,7 +4973,7 @@
                               "lValueRequested": true,
                               "type": "tuple(,,,,,,,,,uint256)"
                             },
-                            "id": 867,
+                            "id": 868,
                             "name": "TupleExpression",
                             "src": "1636:20:7"
                           },
@@ -5005,7 +5005,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "getKitty",
-                                  "referencedDeclaration": 723,
+                                  "referencedDeclaration": 724,
                                   "type": "function (uint256) view external returns (bool,bool,uint256,uint256,uint256,uint256,uint256,uint256,uint256,uint256)"
                                 },
                                 "children": [
@@ -5015,16 +5015,16 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 728,
+                                      "referencedDeclaration": 729,
                                       "type": "contract KittyInterface",
                                       "value": "kittyContract"
                                     },
-                                    "id": 868,
+                                    "id": 869,
                                     "name": "Identifier",
                                     "src": "1659:13:7"
                                   }
                                 ],
-                                "id": 869,
+                                "id": 870,
                                 "name": "MemberAccess",
                                 "src": "1659:22:7"
                               },
@@ -5034,26 +5034,26 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 860,
+                                  "referencedDeclaration": 861,
                                   "type": "uint256",
                                   "value": "_kittyId"
                                 },
-                                "id": 870,
+                                "id": 871,
                                 "name": "Identifier",
                                 "src": "1682:8:7"
                               }
                             ],
-                            "id": 871,
+                            "id": 872,
                             "name": "FunctionCall",
                             "src": "1659:32:7"
                           }
                         ],
-                        "id": 872,
+                        "id": 873,
                         "name": "Assignment",
                         "src": "1636:55:7"
                       }
                     ],
-                    "id": 873,
+                    "id": 874,
                     "name": "ExpressionStatement",
                     "src": "1636:55:7"
                   },
@@ -5093,11 +5093,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 856,
+                              "referencedDeclaration": 857,
                               "type": "function (uint256,uint256,string memory)",
                               "value": "feedAndMultiply"
                             },
-                            "id": 874,
+                            "id": 875,
                             "name": "Identifier",
                             "src": "1701:15:7"
                           },
@@ -5107,11 +5107,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 858,
+                              "referencedDeclaration": 859,
                               "type": "uint256",
                               "value": "_zombieId"
                             },
-                            "id": 875,
+                            "id": 876,
                             "name": "Identifier",
                             "src": "1717:9:7"
                           },
@@ -5121,11 +5121,11 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 864,
+                              "referencedDeclaration": 865,
                               "type": "uint256",
                               "value": "kittyDna"
                             },
-                            "id": 876,
+                            "id": 877,
                             "name": "Identifier",
                             "src": "1728:8:7"
                           },
@@ -5142,37 +5142,37 @@
                               "type": "literal_string \"kitty\"",
                               "value": "kitty"
                             },
-                            "id": 877,
+                            "id": 878,
                             "name": "Literal",
                             "src": "1738:7:7"
                           }
                         ],
-                        "id": 878,
+                        "id": 879,
                         "name": "FunctionCall",
                         "src": "1701:45:7"
                       }
                     ],
-                    "id": 879,
+                    "id": 880,
                     "name": "ExpressionStatement",
                     "src": "1701:45:7"
                   }
                 ],
-                "id": 880,
+                "id": 881,
                 "name": "Block",
                 "src": "1603:150:7"
               }
             ],
-            "id": 881,
+            "id": 882,
             "name": "FunctionDefinition",
             "src": "1544:209:7"
           }
         ],
-        "id": 882,
+        "id": 883,
         "name": "ContractDefinition",
         "src": "451:1304:7"
       }
     ],
-    "id": 883,
+    "id": 884,
     "name": "SourceUnit",
     "src": "32:1724:7"
   },
@@ -5182,7 +5182,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-  "updatedAt": "2021-12-23T11:47:41.368Z",
+  "updatedAt": "2021-12-29T15:13:52.119Z",
   "devdoc": {
     "methods": {}
   },

@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22;
+pragma experimental ABIEncoderV2;
 
 import "./ownable.sol";
 import "./safeMath.sol";
@@ -12,7 +13,7 @@ contract ZombieFactory is Ownable {
 
     uint dnaDigits = 16;
     uint dnaModulus = 10 ** dnaDigits;
-    uint cooldownTime = 1 days;
+    uint cooldownTime = 1 minutes;
 
     struct Zombie {
         string name;
@@ -26,7 +27,7 @@ contract ZombieFactory is Ownable {
     Zombie[] public zombies;
 
     mapping(uint => address) public zombieToOwner;
-    mapping(address => uint) ownerZombieCount;
+    mapping(address => uint) public ownerZombieCount;
 
     function _createZombie(string _name, uint _dna) internal {
         uint id = zombies.push(Zombie(_name, _dna, 1, uint32(now + cooldownTime), 0, 0)) - 1;
@@ -46,5 +47,4 @@ contract ZombieFactory is Ownable {
         randDna = randDna - randDna % 100;
         _createZombie(_name, randDna);
     }
-
 }

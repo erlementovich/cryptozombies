@@ -229,7 +229,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1224,
+                        "referencedDeclaration": 1275,
                         "src": "558:3:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -318,7 +318,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1224,
+                            "referencedDeclaration": 1275,
                             "src": "701:3:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -372,10 +372,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1227,
-                        1228
+                        1278,
+                        1279
                       ],
-                      "referencedDeclaration": 1227,
+                      "referencedDeclaration": 1278,
                       "src": "693:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -530,10 +530,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1227,
-                        1228
+                        1278,
+                        1279
                       ],
-                      "referencedDeclaration": 1227,
+                      "referencedDeclaration": 1278,
                       "src": "979:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -984,7 +984,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 1224,
+                                  "referencedDeclaration": 1275,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -1063,10 +1063,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1227,
-                                1228
+                                1278,
+                                1279
                               ],
-                              "referencedDeclaration": 1227,
+                              "referencedDeclaration": 1278,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -1107,7 +1107,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 1224,
+                                      "referencedDeclaration": 1275,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -1274,10 +1274,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1227,
-                                1228
+                                1278,
+                                1279
                               ],
-                              "referencedDeclaration": 1227,
+                              "referencedDeclaration": 1278,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -1540,7 +1540,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-  "updatedAt": "2021-12-23T11:47:41.362Z",
+  "updatedAt": "2021-12-29T15:13:52.111Z",
   "devdoc": {
     "methods": {
       "constructor()": {
