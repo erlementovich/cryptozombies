@@ -31,6 +31,7 @@ export default {
 
       try {
         const zombie = await contract.methods.zombies(payload.zombieId).call()
+        zombie.id = payload.zombieId;
 
         if (payload.isAttackCard) {
           zombie.owner = await dispatch('ownerByZombieId', payload.zombieId)
@@ -71,6 +72,18 @@ export default {
         console.log(error)
       }
     },
+
+    attackZombie({ rootState }, payload) {
+      const contract = rootState.drizzle.drizzleInstance.contracts['ZombieFactories'];
+      const activeAccount = rootState.accounts.activeAccount;
+
+      const { zombieId, targetId } = payload;
+      try {
+        contract.methods.attack(zombieId, targetId).send({ from: activeAccount, gas: 3000000 })
+      } catch (error) {
+        console.log(error)
+      }
+    }
   },
 
   getters: {

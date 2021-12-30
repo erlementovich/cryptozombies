@@ -11,7 +11,7 @@
 
     <b-list-group flush>
       <b-list-group-item v-if="isAttackCard">Owner: #{{ zombie.owner }}</b-list-group-item>
-      <b-list-group-item>id: #{{ id }}</b-list-group-item>
+      <b-list-group-item>id: #{{ zombie.id }}</b-list-group-item>
       <b-list-group-item>Level: {{ zombie.level }}</b-list-group-item>
       <b-list-group-item>DNA: {{ zombie.dna }}</b-list-group-item>
       <b-list-group-item>Ready time: {{ zombie.readyTime }}</b-list-group-item>
@@ -20,7 +20,7 @@
     </b-list-group>
 
     <div v-if="isAttackCard">
-      <b-button block variant="danger" @click.prevent="attackZombie">Атаковать</b-button>
+      <b-button block variant="danger" @click.prevent="onAttackZombieHandle">Атаковать</b-button>
     </div>
   </b-card>
   <div v-else>Loading ...</div>
@@ -46,11 +46,14 @@ export default {
   }),
   computed: {
     ...mapGetters('drizzle', ['drizzleInstance']),
+    ...mapGetters('zombie', ['getCurrentZombie']),
   },
   methods: {
-    ...mapActions('zombie', ['fetchZombie', 'ownerByZombieId']),
-    attackZombie() {
-
+    ...mapActions('zombie', ['fetchZombie', 'ownerByZombieId', 'attackZombie']),
+    onAttackZombieHandle() {
+      if (this.isAttackCard) {
+        this.attackZombie({ zombieId: this.getCurrentZombie.id, targetId: this.id });
+      }
     }
   },
   async created() {
