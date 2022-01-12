@@ -50,7 +50,7 @@
   "sourceMap": "59:392:0:-;;;108:10;85:33;;;;;;;;;;;;;;;;;;;;59:392;8:9:-1;5:2;;;30:1;27;20:12;5:2;59:392:0;;;;;;;",
   "deployedSourceMap": "59:392:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;124:36;;8:9:-1;5:2;;;30:1;27;20:12;5:2;124:36:0;;;;;;;;;;;;;;;;;;;;;;;85:33;;8:9:-1;5:2;;;30:1;27;20:12;5:2;85:33:0;;;;;;;;;;;;;;;;;;;;;;;;;;;340:109;;8:9:-1;5:2;;;30:1;27;20:12;5:2;340:109:0;;;;;;;;;;;;;;;;;;;;;;;;;;124:36;;;;:::o;85:33::-;;;;;;;;;;;;;:::o;340:109::-;234:5;;;;;;;;;;;220:19;;:10;:19;;;199:117;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;433:9;406:24;:36;;;;340:109;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22;\n\ncontract Migrations {\n    address public owner = msg.sender;\n    uint public last_completed_migration;\n\n    modifier restricted() {\n        require(\n            msg.sender == owner,\n            \"This function is restricted to the contract's owner\"\n        );\n        _;\n    }\n\n    function setCompleted(uint completed) public restricted {\n        last_completed_migration = completed;\n    }\n}\n",
-  "sourcePath": "/home/artem/projects/solidity/cryptozombies/contracts/Migrations.sol",
+  "sourcePath": "/Users/erofeevas/sites/solidity/cryptozombies/contracts/Migrations.sol",
   "ast": {
     "absolutePath": "project:/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -116,7 +116,7 @@
                 "name": "msg",
                 "nodeType": "Identifier",
                 "overloadedDeclarations": [],
-                "referencedDeclaration": 1275,
+                "referencedDeclaration": 1286,
                 "src": "108:3:0",
                 "typeDescriptions": {
                   "typeIdentifier": "t_magic_message",
@@ -194,7 +194,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1275,
+                            "referencedDeclaration": 1286,
                             "src": "220:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -270,10 +270,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1278,
-                        1279
+                        1289,
+                        1290
                       ],
-                      "referencedDeclaration": 1279,
+                      "referencedDeclaration": 1290,
                       "src": "199:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
@@ -532,7 +532,7 @@
                       "overloadedDeclarations": [
                         null
                       ],
-                      "referencedDeclaration": 1275,
+                      "referencedDeclaration": 1286,
                       "type": "msg",
                       "value": "msg"
                     },
@@ -626,10 +626,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1278,
-                                1279
+                                1289,
+                                1290
                               ],
-                              "referencedDeclaration": 1279,
+                              "referencedDeclaration": 1290,
                               "type": "function (bool,string memory) pure",
                               "value": "require"
                             },
@@ -670,7 +670,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 1275,
+                                      "referencedDeclaration": 1286,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -907,12 +907,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x4B79950093D19B3Ae50F4eA11e4b2bdA2CC7edb2",
-      "transactionHash": "0xa41af95c2f8649c6d7bd55d23ba41e2fdfb918a29c1d6201b40a1dbfc60aa7ce"
+      "address": "0x89E3CbDD867f90ee3619968eE092DafC012889DD",
+      "transactionHash": "0xfe5063b8300c299c1c8e10ee80695cf6ea86e8da8fe8386721218b3d3b00bee5"
     }
   },
   "schemaVersion": "3.4.4",
-  "updatedAt": "2021-12-30T10:22:18.849Z",
+  "updatedAt": "2022-01-12T14:44:40.091Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

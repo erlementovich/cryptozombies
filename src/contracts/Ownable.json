@@ -62,7 +62,7 @@
   "sourceMap": "249:849:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;249:849:3;;;;;;;",
   "deployedSourceMap": "249:849:3:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;272:20;;8:9:-1;5:2;;;30:1;27;20:12;5:2;272:20:3;;;;;;;;;;;;;;;;;;;;;;;;;;;510:65;;8:9:-1;5:2;;;30:1;27;20:12;5:2;510:65:3;;;;;;907:188;;8:9:-1;5:2;;;30:1;27;20:12;5:2;907:188:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;272:20;;;;;;;;;;;;;:::o;510:65::-;558:10;550:5;;:18;;;;;;;;;;;;;;;;;;510:65::o;907:188::-;715:5;;;;;;;;;;;701:19;;:10;:19;;;693:28;;;;;;;;1007:1;987:22;;:8;:22;;;;979:31;;;;;;;;1053:8;1025:37;;1046:5;;;;;;;;;;;1025:37;;;;;;;;;;;;1080:8;1072:5;;:16;;;;;;;;;;;;;;;;;;907:188;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22;\n\n/**\n * @title Ownable\n * @dev The Ownable contract has an owner address, and provides basic authorization control\n * functions, this simplifies the implementation of \"user permissions\".\n */\ncontract Ownable {\n    address public owner;\n\n    event OwnershipTransferred(address indexed previousOwner, address indexed newOwner);\n\n    /**\n     * @dev The Ownable constructor sets the original `owner` of the contract to the sender\n   * account.\n   */\n\n    function constructor() public {\n        owner = msg.sender;\n    }\n\n\n    /**\n     * @dev Throws if called by any account other than the owner.\n   */\n    modifier onlyOwner() {\n        require(msg.sender == owner);\n        _;\n    }\n\n\n    /**\n     * @dev Allows the current owner to transfer control of the contract to a newOwner.\n   * @param newOwner The address to transfer ownership to.\n   */\n    function transferOwnership(address newOwner) public onlyOwner {\n        require(newOwner != address(0));\n        emit OwnershipTransferred(owner, newOwner);\n        owner = newOwner;\n    }\n\n}\n",
-  "sourcePath": "/home/artem/projects/solidity/cryptozombies/contracts/ownable.sol",
+  "sourcePath": "/Users/erofeevas/sites/solidity/cryptozombies/contracts/ownable.sol",
   "ast": {
     "absolutePath": "project:/contracts/ownable.sol",
     "exportedSymbols": {
@@ -229,7 +229,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1275,
+                        "referencedDeclaration": 1286,
                         "src": "558:3:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -318,7 +318,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1275,
+                            "referencedDeclaration": 1286,
                             "src": "701:3:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -372,10 +372,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1278,
-                        1279
+                        1289,
+                        1290
                       ],
-                      "referencedDeclaration": 1278,
+                      "referencedDeclaration": 1289,
                       "src": "693:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -530,10 +530,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1278,
-                        1279
+                        1289,
+                        1290
                       ],
-                      "referencedDeclaration": 1278,
+                      "referencedDeclaration": 1289,
                       "src": "979:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -984,7 +984,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 1275,
+                                  "referencedDeclaration": 1286,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -1063,10 +1063,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1278,
-                                1279
+                                1289,
+                                1290
                               ],
-                              "referencedDeclaration": 1278,
+                              "referencedDeclaration": 1289,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -1107,7 +1107,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 1275,
+                                      "referencedDeclaration": 1286,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -1274,10 +1274,10 @@
                                 }
                               ],
                               "overloadedDeclarations": [
-                                1278,
-                                1279
+                                1289,
+                                1290
                               ],
-                              "referencedDeclaration": 1278,
+                              "referencedDeclaration": 1289,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
@@ -1540,7 +1540,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.4",
-  "updatedAt": "2021-12-29T15:13:52.111Z",
+  "updatedAt": "2022-01-12T14:37:01.031Z",
   "devdoc": {
     "methods": {
       "constructor()": {
